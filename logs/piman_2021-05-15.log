@@ -1,0 +1,1348 @@
+2021-05-15 19:35:12,423 - WARNING - Power_Cycle - Setting pi at port 6 to OFF
+2021-05-15 19:35:12,628 - WARNING - Power_Cycle - Set pi at interface 1 port 6 to OFF
+2021-05-15 19:35:13,629 - WARNING - Power_Cycle - Setting pi at port 6 to ON
+2021-05-15 19:35:13,819 - WARNING - Power_Cycle - Set pi at interface 1 port 6 to ON
+2021-05-15 19:44:20,342 - WARNING - Power_Cycle - Setting pi at port 4 to OFF
+2021-05-15 19:44:20,541 - WARNING - Power_Cycle - Set pi at interface 1 port 4 to OFF
+2021-05-15 19:44:21,543 - WARNING - Power_Cycle - Setting pi at port 4 to ON
+2021-05-15 19:44:21,718 - WARNING - Power_Cycle - Set pi at interface 1 port 4 to ON
+2021-05-15 20:10:43,817 - WARNING - Starting TFTP...
+2021-05-15 20:10:43,818 - INFO - tcp running...
+2021-05-15 20:10:43,820 - INFO - DHCP server is running...
+2021-05-15 20:10:43,821 - INFO - connecting to 172.16.1.128:69
+2021-05-15 20:10:43,824 - INFO - serving files from ./install/boot on port 69
+2021-05-15 20:10:43,825 - INFO - TFTP waiting for request
+2021-05-15 20:10:46,707 - WARNING - Power_Cycle - Setting pi at port 4 to OFF
+2021-05-15 20:10:46,918 - WARNING - Power_Cycle - Set pi at interface 1 port 4 to OFF
+2021-05-15 20:10:47,920 - WARNING - Power_Cycle - Setting pi at port 4 to ON
+2021-05-15 20:10:48,107 - WARNING - Power_Cycle - Set pi at interface 1 port 4 to ON
+2021-05-15 20:10:58,279 - INFO - known ip: 172.16.1.6
+2021-05-15 20:10:58,301 - INFO - got [b'bootcode.bin', b'octet'] from ('172.16.1.6', 49153)
+2021-05-15 20:10:58,358 - WARNING - download complete, closing socket
+2021-05-15 20:10:58,359 - INFO - got [b'bootsig.bin', b'octet'] from ('172.16.1.6', 49154)
+2021-05-15 20:10:58,377 - ERROR - bootsig.bin: key error - looking in filesystem next
+2021-05-15 20:10:58,395 - ERROR - No such file within the directory
+2021-05-15 20:10:59,464 - INFO - known ip: 172.16.1.6
+2021-05-15 20:10:59,466 - INFO - got [b'fd67afe1/start.elf', b'octet', b'tsize', b'0'] from ('172.16.1.6', 49153)
+2021-05-15 20:10:59,478 - ERROR - fd67afe1/start.elf: key error - looking in filesystem next
+2021-05-15 20:10:59,479 - ERROR - No such file within the directory
+2021-05-15 20:10:59,487 - INFO - got [b'autoboot.txt', b'octet', b'tsize', b'0'] from ('172.16.1.6', 49154)
+2021-05-15 20:10:59,499 - ERROR - autoboot.txt: key error - looking in filesystem next
+2021-05-15 20:10:59,499 - ERROR - No such file within the directory
+2021-05-15 20:10:59,500 - INFO - got [b'config.txt', b'octet', b'tsize', b'0'] from ('172.16.1.6', 49155)
+2021-05-15 20:10:59,513 - WARNING - download complete, closing socket
+2021-05-15 20:11:00,514 - INFO - got [b'recovery.elf', b'octet', b'tsize', b'0'] from ('172.16.1.6', 49156)
+2021-05-15 20:11:00,552 - ERROR - recovery.elf: key error - looking in filesystem next
+2021-05-15 20:11:00,552 - ERROR - No such file within the directory
+2021-05-15 20:11:00,553 - INFO - got [b'start.elf', b'octet', b'tsize', b'0'] from ('172.16.1.6', 49157)
+2021-05-15 20:11:02,348 - WARNING - download complete, closing socket
+2021-05-15 20:11:02,350 - INFO - got [b'fixup.dat', b'octet', b'tsize', b'0'] from ('172.16.1.6', 49158)
+2021-05-15 20:11:02,370 - WARNING - download complete, closing socket
+2021-05-15 20:11:02,515 - INFO - got [b'recovery.elf', b'octet', b'tsize', b'0'] from ('172.16.1.6', 49153)
+2021-05-15 20:11:02,527 - ERROR - recovery.elf: key error - looking in filesystem next
+2021-05-15 20:11:02,527 - ERROR - No such file within the directory
+2021-05-15 20:11:02,528 - INFO - got [b'config.txt', b'octet', b'tsize', b'0'] from ('172.16.1.6', 49154)
+2021-05-15 20:11:02,541 - WARNING - download complete, closing socket
+2021-05-15 20:11:02,542 - INFO - got [b'dt-blob.bin', b'octet', b'tsize', b'0'] from ('172.16.1.6', 49155)
+2021-05-15 20:11:02,554 - ERROR - dt-blob.bin: key error - looking in filesystem next
+2021-05-15 20:11:02,554 - ERROR - No such file within the directory
+2021-05-15 20:11:02,604 - INFO - got [b'recovery.elf', b'octet', b'tsize', b'0'] from ('172.16.1.6', 49156)
+2021-05-15 20:11:02,616 - ERROR - recovery.elf: key error - looking in filesystem next
+2021-05-15 20:11:02,616 - ERROR - No such file within the directory
+2021-05-15 20:11:02,617 - INFO - got [b'config.txt', b'octet', b'tsize', b'0'] from ('172.16.1.6', 49157)
+2021-05-15 20:11:02,629 - WARNING - download complete, closing socket
+2021-05-15 20:11:05,851 - INFO - got [b'bootcfg.txt', b'octet', b'tsize', b'0'] from ('172.16.1.6', 49158)
+2021-05-15 20:11:05,864 - ERROR - bootcfg.txt: key error - looking in filesystem next
+2021-05-15 20:11:05,864 - ERROR - No such file within the directory
+2021-05-15 20:11:05,893 - INFO - got [b'initramfs.gz', b'octet', b'tsize', b'0'] from ('172.16.1.6', 49159)
+2021-05-15 20:11:07,146 - WARNING - download complete, closing socket
+2021-05-15 20:11:07,383 - INFO - got [b'bcm2710-rpi-3-b-plus.dtb', b'octet', b'tsize', b'0'] from ('172.16.1.6', 49160)
+2021-05-15 20:11:07,421 - WARNING - download complete, closing socket
+2021-05-15 20:11:07,636 - INFO - got [b'overlays/rpi-poe.dtbo', b'octet', b'tsize', b'0'] from ('172.16.1.6', 49161)
+2021-05-15 20:11:07,660 - ERROR - illegal operation specified
+2021-05-15 20:11:07,660 - INFO - got [b'config.txt', b'octet', b'tsize', b'0'] from ('172.16.1.6', 49162)
+2021-05-15 20:11:07,675 - WARNING - download complete, closing socket
+2021-05-15 20:11:07,677 - INFO - got [b'cmdline.txt', b'octet', b'tsize', b'0'] from ('172.16.1.6', 49163)
+2021-05-15 20:11:07,690 - WARNING - download complete, closing socket
+2021-05-15 20:11:09,976 - INFO - got [b'recovery8.img', b'octet', b'tsize', b'0'] from ('172.16.1.6', 49164)
+2021-05-15 20:11:09,990 - ERROR - recovery8.img: key error - looking in filesystem next
+2021-05-15 20:11:09,990 - ERROR - No such file within the directory
+2021-05-15 20:11:09,991 - INFO - got [b'recovery8-32.img', b'octet', b'tsize', b'0'] from ('172.16.1.6', 49165)
+2021-05-15 20:11:10,004 - ERROR - recovery8-32.img: key error - looking in filesystem next
+2021-05-15 20:11:10,004 - ERROR - No such file within the directory
+2021-05-15 20:11:10,005 - INFO - got [b'recovery7.img', b'octet', b'tsize', b'0'] from ('172.16.1.6', 49166)
+2021-05-15 20:11:10,018 - ERROR - recovery7.img: key error - looking in filesystem next
+2021-05-15 20:11:10,019 - ERROR - No such file within the directory
+2021-05-15 20:11:10,019 - INFO - got [b'recovery.img', b'octet', b'tsize', b'0'] from ('172.16.1.6', 49167)
+2021-05-15 20:11:10,031 - ERROR - recovery.img: key error - looking in filesystem next
+2021-05-15 20:11:10,031 - ERROR - No such file within the directory
+2021-05-15 20:11:10,032 - INFO - got [b'kernel8.img', b'octet', b'tsize', b'0'] from ('172.16.1.6', 49168)
+2021-05-15 20:11:10,046 - ERROR - illegal operation specified
+2021-05-15 20:11:10,047 - INFO - got [b'kernel8-32.img', b'octet', b'tsize', b'0'] from ('172.16.1.6', 49169)
+2021-05-15 20:11:10,063 - ERROR - kernel8-32.img: key error - looking in filesystem next
+2021-05-15 20:11:10,064 - ERROR - No such file within the directory
+2021-05-15 20:11:10,064 - INFO - got [b'kernel7.img', b'octet', b'tsize', b'0'] from ('172.16.1.6', 49170)
+2021-05-15 20:11:10,077 - ERROR - illegal operation specified
+2021-05-15 20:11:10,078 - INFO - got [b'armstub8-32.bin', b'octet', b'tsize', b'0'] from ('172.16.1.6', 49171)
+2021-05-15 20:11:10,095 - ERROR - armstub8-32.bin: key error - looking in filesystem next
+2021-05-15 20:11:10,095 - ERROR - No such file within the directory
+2021-05-15 20:11:10,096 - INFO - got [b'kernel7.img', b'octet', b'tsize', b'0'] from ('172.16.1.6', 49172)
+2021-05-15 20:11:11,086 - INFO - known ip: 172.16.1.8
+2021-05-15 20:11:14,312 - WARNING - download complete, closing socket
+2021-05-15 20:11:17,681 - ERROR - Socket Timed Out
+2021-05-15 20:11:17,681 - ERROR - closed socket
+2021-05-15 20:11:20,057 - ERROR - Socket Timed Out
+2021-05-15 20:11:20,058 - ERROR - closed socket
+2021-05-15 20:11:20,088 - ERROR - Socket Timed Out
+2021-05-15 20:11:20,088 - ERROR - closed socket
+2021-05-15 20:11:22,245 - INFO - known ip: 172.16.1.6
+2021-05-15 20:11:32,269 - INFO - known ip: 172.16.1.6
+2021-05-15 20:11:32,364 - INFO - serving client from: ('172.16.1.6', 48248)
+2021-05-15 20:11:32,369 - INFO - TCP - unsupported request: + set -x
+2021-05-15 20:11:32,369 - INFO - TCP - unsupported request: + send Hello World
+2021-05-15 20:11:32,369 - INFO - TCP - unsupported request: + echo Hello World
+2021-05-15 20:11:32,369 - INFO - TCP - unsupported request: Hello World
+2021-05-15 20:11:32,369 - INFO - TCP - unsupported request: + makenode
+2021-05-15 20:11:32,369 - INFO - TCP - unsupported request: + send MAKING NODES
+2021-05-15 20:11:32,369 - INFO - TCP - unsupported request: + echo MAKING NODES
+2021-05-15 20:11:32,369 - INFO - TCP - unsupported request: MAKING NODES
+2021-05-15 20:11:32,370 - INFO - TCP - unsupported request: + mkdir /m
+2021-05-15 20:11:32,375 - INFO - TCP - unsupported request: + mknod /dev/mmcblk0 b 179 0
+2021-05-15 20:11:32,380 - INFO - TCP - unsupported request: + mknod /dev/mmcblk0p1 b 179 1
+2021-05-15 20:11:32,385 - INFO - TCP - unsupported request: + mknod /dev/mmcblk0p2 b 179 2
+2021-05-15 20:11:32,391 - INFO - TCP - unsupported request: + send MADE NODES
+2021-05-15 20:11:32,391 - INFO - TCP - unsupported request: + echo MADE NODES
+2021-05-15 20:11:32,391 - INFO - TCP - unsupported request: MADE NODES
+2021-05-15 20:11:32,391 - INFO - TCP - unsupported request: + checkinstalled
+2021-05-15 20:11:32,391 - INFO - TCP - unsupported request: + send CHECKING IF INSTALLED
+2021-05-15 20:11:32,391 - INFO - TCP - unsupported request: + echo CHECKING IF INSTALLED
+2021-05-15 20:11:32,391 - INFO - TCP - unsupported request: CHECKING IF INSTALLED
+2021-05-15 20:11:32,392 - INFO - TCP - unsupported request: + mount -t ext4 /dev/mmcblk0p2 /m
+2021-05-15 20:11:32,424 - INFO - TCP - unsupported request: + stat /m/bin
+2021-05-15 20:11:32,430 - INFO - TCP - unsupported request: stat: can't stat '/m/bin': No such file or directory
+2021-05-15 20:11:32,433 - INFO - TCP - unsupported request: + send IS_UNINSTALLED
+2021-05-15 20:11:32,433 - INFO - TCP - unsupported request: + echo IS_UNINSTALLED
+2021-05-15 20:11:32,433 - INFO - TCT - uninstalled, sending format
+2021-05-15 20:11:32,434 - INFO - TCP - unsupported request: + true
+2021-05-15 20:11:32,436 - INFO - TCP - unsupported request: + recv
+2021-05-15 20:11:32,436 - INFO - TCP - unsupported request: + msg=
+2021-05-15 20:11:32,436 - INFO - TCP - unsupported request: + read line
+2021-05-15 20:11:32,437 - INFO - TCP - unsupported request: + [ xbusybox date -s 202105152011.32 == xEOM ]
+2021-05-15 20:11:32,437 - INFO - TCP - unsupported request: + msg=busybox date -s 202105152011.32
+2021-05-15 20:11:32,437 - INFO - TCP - unsupported request: + read line
+2021-05-15 20:11:32,437 - INFO - TCP - unsupported request: + [ xEOM == xEOM ]
+2021-05-15 20:11:32,437 - INFO - TCP - unsupported request: + echo -n busybox date -s 202105152011.32
+2021-05-15 20:11:32,438 - INFO - TCP - unsupported request: + return
+2021-05-15 20:11:32,438 - INFO - TCP - unsupported request: + req=busybox date -s 202105152011.32
+2021-05-15 20:11:32,438 - INFO - TCP - unsupported request: + send busybox date -s 202105152011.32
+2021-05-15 20:11:32,439 - INFO - TCP - unsupported request: + echo busybox date -s 202105152011.32
+2021-05-15 20:11:32,439 - INFO - TCP - unsupported request: busybox date -s 202105152011.32
+2021-05-15 20:11:32,439 - INFO - TCP - unsupported request: + send RECEIVED_DATE
+2021-05-15 20:11:32,439 - INFO - TCP - unsupported request: + echo RECEIVED_DATE
+2021-05-15 20:11:32,439 - INFO - TCP - pi successfully received date string
+2021-05-15 20:11:32,439 - INFO - TCP - unsupported request: + busybox date -s 202105152011.32
+2021-05-15 20:11:32,444 - INFO - TCP - unsupported request: Sat May 15 20:11:32 UTC 2021
+2021-05-15 20:11:32,445 - INFO - TCP - unsupported request: + send SET_DATE
+2021-05-15 20:11:32,445 - INFO - TCP - unsupported request: + echo SET_DATE
+2021-05-15 20:11:32,445 - INFO - TCP - pi successfully set local datetime
+2021-05-15 20:11:32,445 - INFO - TCP - unsupported request: + true
+2021-05-15 20:11:32,446 - INFO - TCP - unsupported request: + recv
+2021-05-15 20:11:32,447 - INFO - TCP - unsupported request: + msg=
+2021-05-15 20:11:32,447 - INFO - TCP - unsupported request: + read line
+2021-05-15 20:11:32,447 - INFO - TCP - unsupported request: + [ xformat == xEOM ]
+2021-05-15 20:11:32,447 - INFO - TCP - unsupported request: + msg=format
+2021-05-15 20:11:32,447 - INFO - TCP - unsupported request: + read line
+2021-05-15 20:11:32,447 - INFO - TCP - unsupported request: + [ xEOM == xEOM ]
+2021-05-15 20:11:32,448 - INFO - TCP - unsupported request: + echo -n format
+2021-05-15 20:11:32,448 - INFO - TCP - unsupported request: + return
+2021-05-15 20:11:32,448 - INFO - TCP - unsupported request: + req=format
+2021-05-15 20:11:32,448 - INFO - TCP - unsupported request: + send format
+2021-05-15 20:11:32,448 - INFO - TCP - unsupported request: + echo format
+2021-05-15 20:11:32,449 - INFO - TCP - unsupported request: format
+2021-05-15 20:11:32,449 - INFO - TCP - unsupported request: + send RECEIVED_FORMAT
+2021-05-15 20:11:32,449 - INFO - TCP - unsupported request: + echo RECEIVED_FORMAT
+2021-05-15 20:11:32,449 - INFO - TCP - pi successfully received format command
+2021-05-15 20:11:32,449 - INFO - TCP - unsupported request: + format
+2021-05-15 20:11:32,449 - INFO - TCP - unsupported request: + send FORMATTING
+2021-05-15 20:11:32,449 - INFO - TCP - unsupported request: + echo FORMATTING
+2021-05-15 20:11:32,450 - INFO - TCP - unsupported request: FORMATTING
+2021-05-15 20:11:32,450 - INFO - TCP - unsupported request: + umount /m
+2021-05-15 20:11:32,531 - INFO - TCP - unsupported request: + umount /new_root
+2021-05-15 20:11:32,536 - INFO - TCP - unsupported request: umount: can't umount /new_root: No such file or directory
+2021-05-15 20:11:32,537 - INFO - TCP - unsupported request: + sfdisk /dev/mmcblk0
+2021-05-15 20:11:32,588 - INFO - TCP - unsupported request: Checking that no-one is using this disk right now ... OK
+2021-05-15 20:11:32,589 - INFO - TCP - unsupported request: 
+2021-05-15 20:11:32,589 - INFO - TCP - unsupported request: Disk /dev/mmcblk0: 117.8 GiB, 126437294080 bytes, 246947840 sectors
+2021-05-15 20:11:32,589 - INFO - TCP - unsupported request: Units: sectors of 1 * 512 = 512 bytes
+2021-05-15 20:11:32,589 - INFO - TCP - unsupported request: Sector size (logical/physical): 512 bytes / 512 bytes
+2021-05-15 20:11:32,589 - INFO - TCP - unsupported request: I/O size (minimum/optimal): 512 bytes / 512 bytes
+2021-05-15 20:11:32,589 - INFO - TCP - unsupported request: Disklabel type: dos
+2021-05-15 20:11:32,589 - INFO - TCP - unsupported request: Disk identifier: 0x5f5d7a31
+2021-05-15 20:11:32,589 - INFO - TCP - unsupported request: 
+2021-05-15 20:11:32,589 - INFO - TCP - unsupported request: Old situation:
+2021-05-15 20:11:32,590 - INFO - TCP - unsupported request: 
+2021-05-15 20:11:32,590 - INFO - TCP - unsupported request: Device         Boot Start      End  Sectors  Size Id Type
+2021-05-15 20:11:32,590 - INFO - TCP - unsupported request: /dev/mmcblk0p1       8192    96663    88472 43.2M  c W95 FAT32 (LBA)
+2021-05-15 20:11:32,590 - INFO - TCP - unsupported request: /dev/mmcblk0p2      98304 62521343 62423040 29.8G 83 Linux
+2021-05-15 20:11:32,590 - INFO - TCP - unsupported request: 
+2021-05-15 20:11:32,590 - INFO - TCP - unsupported request: >>> Script header accepted.
+2021-05-15 20:11:32,590 - INFO - TCP - unsupported request: >>> Script header accepted.
+2021-05-15 20:11:32,590 - INFO - TCP - unsupported request: >>> Script header accepted.
+2021-05-15 20:11:32,591 - INFO - TCP - unsupported request: >>> Script header accepted.
+2021-05-15 20:11:32,591 - INFO - TCP - unsupported request: >>> Created a new DOS disklabel with disk identifier 0x5f5d7a31.
+2021-05-15 20:11:32,591 - INFO - TCP - unsupported request: /dev/mmcblk0p1: Created a new partition 1 of type 'W95 FAT32 (LBA)' and of size 43.2 MiB.
+2021-05-15 20:11:32,591 - INFO - TCP - unsupported request: /dev/mmcblk0p2: Created a new partition 2 of type 'Linux' and of size 29.8 GiB.
+2021-05-15 20:11:32,631 - INFO - TCP - unsupported request: Partition #2 contains a ext4 signature.
+2021-05-15 20:11:32,631 - INFO - TCP - unsupported request: /dev/mmcblk0p3: Done.
+2021-05-15 20:11:32,631 - INFO - TCP - unsupported request: 
+2021-05-15 20:11:32,631 - INFO - TCP - unsupported request: New situation:
+2021-05-15 20:11:32,631 - INFO - TCP - unsupported request: 
+2021-05-15 20:11:32,631 - INFO - TCP - unsupported request: Device         Boot Start      End  Sectors  Size Id Type
+2021-05-15 20:11:32,631 - INFO - TCP - unsupported request: /dev/mmcblk0p1       8192    96663    88472 43.2M  c W95 FAT32 (LBA)
+2021-05-15 20:11:32,631 - INFO - TCP - unsupported request: /dev/mmcblk0p2      98304 62521343 62423040 29.8G 83 Linux
+2021-05-15 20:11:32,632 - INFO - TCP - unsupported request: 
+2021-05-15 20:11:32,632 - INFO - TCP - unsupported request: The partition table has been altered.
+2021-05-15 20:11:32,632 - INFO - TCP - unsupported request: Calling ioctl() to re-read partition table.
+2021-05-15 20:11:32,632 - INFO - TCP - unsupported request: Syncing disks.
+2021-05-15 20:11:32,632 - INFO - TCP - unsupported request: + mkfs.ext4 /dev/mmcblk0p2 -L rootfs
+2021-05-15 20:11:32,632 - INFO - TCP - unsupported request: mke2fs 1.43.4 (31-Jan-2017)
+2021-05-15 20:11:32,632 - INFO - TCP - unsupported request: ext2fs_check_if_mount: Can't check if filesystem is mounted due to missing mtab file while determining whether /dev/mmcblk0p2 is mounted.
+2021-05-15 20:11:35,849 - INFO - TCP - unsupported request: Discarding device blocks:    4096/78028801052672/78028803674112/78028806819840/7802880               done
+2021-05-15 20:11:35,851 - INFO - TCP - unsupported request: Creating filesystem with 7802880 4k blocks and 1954064 inodes
+2021-05-15 20:11:35,851 - INFO - TCP - unsupported request: Filesystem UUID: bfa986d6-b5b9-11eb-880f-b827eb67afe1
+2021-05-15 20:11:35,851 - INFO - TCP - unsupported request: Superblock backups stored on blocks:
+2021-05-15 20:11:35,851 - INFO - TCP - unsupported request: 32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208,
+2021-05-15 20:11:35,851 - INFO - TCP - unsupported request: 4096000
+2021-05-15 20:11:35,851 - INFO - TCP - unsupported request: 
+2021-05-15 20:11:35,855 - INFO - TCP - unsupported request: Allocating group tables:   0/239       done
+2021-05-15 20:11:35,855 - INFO - TCP - unsupported request: Writing inode tables:   0/239       done
+2021-05-15 20:11:36,412 - INFO - TCP - unsupported request: Creating journal (32768 blocks): done
+2021-05-15 20:11:43,823 - INFO - TCP - unsupported request: Writing superblocks and filesystem accounting information:   0/239  2/239  6/239 10/239       done
+2021-05-15 20:11:43,825 - INFO - TCP - unsupported request: 
+2021-05-15 20:11:43,825 - INFO - TCP - unsupported request: + sfdisk /dev/mmcblk0
+2021-05-15 20:11:43,876 - INFO - TCP - unsupported request: Checking that no-one is using this disk right now ... OK
+2021-05-15 20:11:43,876 - INFO - TCP - unsupported request: 
+2021-05-15 20:11:43,876 - INFO - TCP - unsupported request: Disk /dev/mmcblk0: 117.8 GiB, 126437294080 bytes, 246947840 sectors
+2021-05-15 20:11:43,877 - INFO - TCP - unsupported request: Units: sectors of 1 * 512 = 512 bytes
+2021-05-15 20:11:43,877 - INFO - TCP - unsupported request: Sector size (logical/physical): 512 bytes / 512 bytes
+2021-05-15 20:11:43,877 - INFO - TCP - unsupported request: I/O size (minimum/optimal): 512 bytes / 512 bytes
+2021-05-15 20:11:43,877 - INFO - TCP - unsupported request: Disklabel type: dos
+2021-05-15 20:11:43,877 - INFO - TCP - unsupported request: Disk identifier: 0x5f5d7a31
+2021-05-15 20:11:43,877 - INFO - TCP - unsupported request: 
+2021-05-15 20:11:43,877 - INFO - TCP - unsupported request: Old situation:
+2021-05-15 20:11:43,877 - INFO - TCP - unsupported request: 
+2021-05-15 20:11:43,878 - INFO - TCP - unsupported request: Device         Boot Start      End  Sectors  Size Id Type
+2021-05-15 20:11:43,878 - INFO - TCP - unsupported request: /dev/mmcblk0p1       8192    96663    88472 43.2M  c W95 FAT32 (LBA)
+2021-05-15 20:11:43,878 - INFO - TCP - unsupported request: /dev/mmcblk0p2      98304 62521343 62423040 29.8G 83 Linux
+2021-05-15 20:11:43,878 - INFO - TCP - unsupported request: 
+2021-05-15 20:11:43,878 - INFO - TCP - unsupported request: >>> Script header accepted.
+2021-05-15 20:11:43,878 - INFO - TCP - unsupported request: >>> Script header accepted.
+2021-05-15 20:11:43,878 - INFO - TCP - unsupported request: >>> Script header accepted.
+2021-05-15 20:11:43,878 - INFO - TCP - unsupported request: >>> Script header accepted.
+2021-05-15 20:11:43,879 - INFO - TCP - unsupported request: >>> Created a new DOS disklabel with disk identifier 0x5f5d7a31.
+2021-05-15 20:11:43,879 - INFO - TCP - unsupported request: /dev/mmcblk0p1: Created a new partition 1 of type 'W95 FAT32 (LBA)' and of size 43.2 MiB.
+2021-05-15 20:11:43,879 - INFO - TCP - unsupported request: /dev/mmcblk0p2: Created a new partition 2 of type 'Linux' and of size 29.8 GiB.
+2021-05-15 20:11:43,879 - INFO - TCP - unsupported request: Partition #2 contains a ext4 signature.
+2021-05-15 20:11:43,886 - INFO - TCP - unsupported request: /dev/mmcblk0p3: Done.
+2021-05-15 20:11:43,886 - INFO - TCP - unsupported request: 
+2021-05-15 20:11:43,886 - INFO - TCP - unsupported request: New situation:
+2021-05-15 20:11:43,886 - INFO - TCP - unsupported request: 
+2021-05-15 20:11:43,886 - INFO - TCP - unsupported request: Device         Boot Start      End  Sectors  Size Id Type
+2021-05-15 20:11:43,886 - INFO - TCP - unsupported request: /dev/mmcblk0p1       8192    96663    88472 43.2M  c W95 FAT32 (LBA)
+2021-05-15 20:11:43,887 - INFO - TCP - unsupported request: /dev/mmcblk0p2      98304 62521343 62423040 29.8G 83 Linux
+2021-05-15 20:11:43,887 - INFO - TCP - unsupported request: 
+2021-05-15 20:11:43,887 - INFO - TCP - unsupported request: The partition table has been altered.
+2021-05-15 20:11:43,887 - INFO - TCP - unsupported request: Calling ioctl() to re-read partition table.
+2021-05-15 20:11:43,887 - INFO - TCP - unsupported request: Syncing disks.
+2021-05-15 20:11:43,887 - INFO - TCP - unsupported request: + sfdisk --dump /dev/mmcblk0
+2021-05-15 20:11:43,895 - INFO - TCP - unsupported request: label: dos
+2021-05-15 20:11:43,895 - INFO - TCP - unsupported request: label-id: 0x5f5d7a31
+2021-05-15 20:11:43,896 - INFO - TCP - unsupported request: device: /dev/mmcblk0
+2021-05-15 20:11:43,896 - INFO - TCP - unsupported request: unit: sectors
+2021-05-15 20:11:43,896 - INFO - TCP - unsupported request: 
+2021-05-15 20:11:43,896 - INFO - TCP - unsupported request: /dev/mmcblk0p1 : start=        8192, size=       88472, type=c
+2021-05-15 20:11:43,896 - INFO - TCP - unsupported request: /dev/mmcblk0p2 : start=       98304, size=    62423040, type=83
+2021-05-15 20:11:43,896 - INFO - TCP - unsupported request: + mkfs.ext4 /dev/mmcblk0p2 -L rootfs
+2021-05-15 20:11:43,904 - INFO - TCP - unsupported request: mke2fs 1.43.4 (31-Jan-2017)
+2021-05-15 20:11:43,908 - INFO - TCP - unsupported request: ext2fs_check_if_mount: Can't check if filesystem is mounted due to missing mtab file while determining whether /dev/mmcblk0p2 is mounted.
+2021-05-15 20:11:46,061 - INFO - TCP - unsupported request: Discarding device blocks:    4096/78028801576960/78028805771264/7802880               done
+2021-05-15 20:11:46,062 - INFO - TCP - unsupported request: Creating filesystem with 7802880 4k blocks and 1954064 inodes
+2021-05-15 20:11:46,062 - INFO - TCP - unsupported request: Filesystem UUID: c5bfa942-b5b9-11eb-ba8f-b827eb67afe1
+2021-05-15 20:11:46,063 - INFO - TCP - unsupported request: Superblock backups stored on blocks:
+2021-05-15 20:11:46,063 - INFO - TCP - unsupported request: 32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208,
+2021-05-15 20:11:46,063 - INFO - TCP - unsupported request: 4096000
+2021-05-15 20:11:46,063 - INFO - TCP - unsupported request: 
+2021-05-15 20:11:46,066 - INFO - TCP - unsupported request: Allocating group tables:   0/239       done
+2021-05-15 20:11:46,066 - INFO - TCP - unsupported request: Writing inode tables:   0/239       done
+2021-05-15 20:11:46,623 - INFO - TCP - unsupported request: Creating journal (32768 blocks): done
+2021-05-15 20:11:53,968 - INFO - TCP - unsupported request: Writing superblocks and filesystem accounting information:   0/239  6/239 10/239       done
+2021-05-15 20:11:53,968 - INFO - TCP - unsupported request: 
+2021-05-15 20:11:53,969 - INFO - TCP - unsupported request: + mount -t ext4 /dev/mmcblk0p2 /m
+2021-05-15 20:11:53,998 - INFO - TCP - unsupported request: + send FINISHED FORMATTING
+2021-05-15 20:11:53,999 - INFO - TCP - unsupported request: + echo FINISHED FORMATTING
+2021-05-15 20:11:53,999 - INFO - TCP - unsupported request: FINISHED FORMATTING
+2021-05-15 20:11:53,999 - INFO - TCP - unsupported request: + cd /m
+2021-05-15 20:11:54,001 - INFO - TCP - unsupported request: + gunzip
+2021-05-15 20:11:54,001 - INFO - TCP - unsupported request: + tar+  -xfnc -
+2021-05-15 20:11:54,001 - INFO - TCP - unsupported request: 172.16.1.128 4444
+2021-05-15 20:11:54,006 - INFO - TCP - started file_transferring
+2021-05-15 20:11:56,887 - DEBUG - TCP - read rootfs.tgz
+2021-05-15 20:11:56,888 - DEBUG - TCP - sending rootfs.tgz
+2021-05-15 20:12:00,445 - INFO - known ip: 172.16.1.9
+2021-05-15 20:12:14,810 - INFO - known ip: 172.16.1.10
+2021-05-15 20:12:15,078 - INFO - known ip: 172.16.1.3
+2021-05-15 20:12:45,236 - INFO - known ip: 172.16.1.7
+2021-05-15 20:14:11,513 - DEBUG - TCP - finished sending rootfs.tgz
+2021-05-15 20:14:11,517 - INFO - TCP - finished file_transferring
+2021-05-15 20:14:12,782 - INFO - TCP - unsupported request: + mounting
+2021-05-15 20:14:12,782 - INFO - TCP - unsupported request: + send MOUNTING
+2021-05-15 20:14:12,783 - INFO - TCP - unsupported request: + echo MOUNTING
+2021-05-15 20:14:12,783 - INFO - TCP - pi mounting has started
+2021-05-15 20:14:12,783 - INFO - TCP - unsupported request: + mkdir -p /new_root
+2021-05-15 20:14:12,788 - INFO - TCP - unsupported request: + mount -t ext4 /dev/mmcblk0p2 /new_root
+2021-05-15 20:14:15,140 - INFO - TCP - unsupported request: + send FINISHED_MOUNTING
+2021-05-15 20:14:15,140 - INFO - TCP - unsupported request: + echo FINISHED_MOUNTING
+2021-05-15 20:14:15,140 - INFO - TCP - pi successfully mounted filesystem
+2021-05-15 20:14:15,141 - INFO - TCP - unsupported request: + send IS_FORMATTED
+2021-05-15 20:14:15,141 - INFO - TCP - unsupported request: + echo IS_FORMATTED
+2021-05-15 20:14:15,141 - INFO - TCP - is formatted, sending file
+2021-05-15 20:14:15,141 - INFO - tcpdump
+2021-05-15 20:14:25,953 - INFO - known ip: 172.16.1.6
+2021-05-15 20:14:35,959 - INFO - known ip: 172.16.1.6
+2021-05-15 20:16:18,194 - WARNING - Power_Cycle - Setting pi at port 5 to OFF
+2021-05-15 20:16:18,403 - WARNING - Power_Cycle - Set pi at interface 1 port 5 to OFF
+2021-05-15 20:16:19,405 - WARNING - Power_Cycle - Setting pi at port 5 to ON
+2021-05-15 20:16:19,578 - WARNING - Power_Cycle - Set pi at interface 1 port 5 to ON
+2021-05-15 20:16:21,188 - INFO - known ip: 172.16.1.8
+2021-05-15 20:16:29,131 - ERROR - unknown mac_address DC:A6:32:CE:81:33. will not assign ip.
+2021-05-15 20:50:22,358 - WARNING - Power_Cycle - Setting pi at port 1 to OFF
+2021-05-15 20:50:22,565 - WARNING - Power_Cycle - Set pi at interface 1 port 1 to OFF
+2021-05-15 20:50:23,567 - WARNING - Power_Cycle - Setting pi at port 1 to ON
+2021-05-15 20:50:23,745 - WARNING - Power_Cycle - Set pi at interface 1 port 1 to ON
+2021-05-15 20:51:00,975 - WARNING - Power_Cycle - Setting pi at port 2 to OFF
+2021-05-15 20:51:01,185 - WARNING - Power_Cycle - Set pi at interface 1 port 2 to OFF
+2021-05-15 20:51:02,186 - WARNING - Power_Cycle - Setting pi at port 2 to ON
+2021-05-15 20:51:02,365 - WARNING - Power_Cycle - Set pi at interface 1 port 2 to ON
+2021-05-15 20:51:13,235 - WARNING - Starting TFTP...
+2021-05-15 20:51:13,237 - INFO - connecting to 172.16.1.128:69
+2021-05-15 20:51:13,237 - INFO - serving files from ./install/boot on port 69
+2021-05-15 20:51:13,238 - INFO - tcp running...
+2021-05-15 20:51:13,240 - INFO - DHCP server is running...
+2021-05-15 20:51:13,241 - INFO - TFTP waiting for request
+2021-05-15 20:51:17,178 - INFO - known ip: 172.16.1.2
+2021-05-15 20:51:17,372 - INFO - got [b'bootcode.bin', b'octet'] from ('172.16.1.2', 49153)
+2021-05-15 20:51:17,431 - WARNING - download complete, closing socket
+2021-05-15 20:51:17,432 - INFO - got [b'bootsig.bin', b'octet'] from ('172.16.1.2', 49154)
+2021-05-15 20:51:17,444 - ERROR - bootsig.bin: key error - looking in filesystem next
+2021-05-15 20:51:17,444 - ERROR - No such file within the directory
+2021-05-15 20:51:17,804 - WARNING - Power_Cycle - Setting pi at port 2 to OFF
+2021-05-15 20:51:18,008 - WARNING - Power_Cycle - Set pi at interface 1 port 2 to OFF
+2021-05-15 20:51:18,543 - INFO - known ip: 172.16.1.2
+2021-05-15 20:51:19,010 - WARNING - Power_Cycle - Setting pi at port 2 to ON
+2021-05-15 20:51:19,188 - WARNING - Power_Cycle - Set pi at interface 1 port 2 to ON
+2021-05-15 20:51:29,182 - INFO - known ip: 172.16.1.2
+2021-05-15 20:51:29,185 - INFO - got [b'bootcode.bin', b'octet'] from ('172.16.1.2', 49153)
+2021-05-15 20:51:29,245 - WARNING - download complete, closing socket
+2021-05-15 20:51:29,245 - INFO - got [b'bootsig.bin', b'octet'] from ('172.16.1.2', 49154)
+2021-05-15 20:51:29,257 - ERROR - bootsig.bin: key error - looking in filesystem next
+2021-05-15 20:51:29,258 - ERROR - No such file within the directory
+2021-05-15 20:51:30,351 - INFO - known ip: 172.16.1.2
+2021-05-15 20:51:30,354 - INFO - got [b'cd106c63/start.elf', b'octet', b'tsize', b'0'] from ('172.16.1.2', 49153)
+2021-05-15 20:51:30,366 - ERROR - cd106c63/start.elf: key error - looking in filesystem next
+2021-05-15 20:51:30,366 - ERROR - No such file within the directory
+2021-05-15 20:51:30,373 - INFO - got [b'autoboot.txt', b'octet', b'tsize', b'0'] from ('172.16.1.2', 49154)
+2021-05-15 20:51:30,385 - ERROR - autoboot.txt: key error - looking in filesystem next
+2021-05-15 20:51:30,385 - ERROR - No such file within the directory
+2021-05-15 20:51:30,386 - INFO - got [b'config.txt', b'octet', b'tsize', b'0'] from ('172.16.1.2', 49155)
+2021-05-15 20:51:30,419 - WARNING - download complete, closing socket
+2021-05-15 20:51:31,420 - INFO - got [b'recovery.elf', b'octet', b'tsize', b'0'] from ('172.16.1.2', 49156)
+2021-05-15 20:51:31,433 - ERROR - recovery.elf: key error - looking in filesystem next
+2021-05-15 20:51:31,433 - ERROR - No such file within the directory
+2021-05-15 20:51:31,434 - INFO - got [b'start.elf', b'octet', b'tsize', b'0'] from ('172.16.1.2', 49157)
+2021-05-15 20:51:33,177 - WARNING - download complete, closing socket
+2021-05-15 20:51:33,179 - INFO - got [b'fixup.dat', b'octet', b'tsize', b'0'] from ('172.16.1.2', 49158)
+2021-05-15 20:51:33,196 - WARNING - download complete, closing socket
+2021-05-15 20:51:33,341 - INFO - got [b'recovery.elf', b'octet', b'tsize', b'0'] from ('172.16.1.2', 49153)
+2021-05-15 20:51:33,353 - ERROR - recovery.elf: key error - looking in filesystem next
+2021-05-15 20:51:33,353 - ERROR - No such file within the directory
+2021-05-15 20:51:33,354 - INFO - got [b'config.txt', b'octet', b'tsize', b'0'] from ('172.16.1.2', 49154)
+2021-05-15 20:51:33,365 - WARNING - download complete, closing socket
+2021-05-15 20:51:33,367 - INFO - got [b'dt-blob.bin', b'octet', b'tsize', b'0'] from ('172.16.1.2', 49155)
+2021-05-15 20:51:33,378 - ERROR - dt-blob.bin: key error - looking in filesystem next
+2021-05-15 20:51:33,378 - ERROR - No such file within the directory
+2021-05-15 20:51:33,428 - INFO - got [b'recovery.elf', b'octet', b'tsize', b'0'] from ('172.16.1.2', 49156)
+2021-05-15 20:51:33,439 - ERROR - recovery.elf: key error - looking in filesystem next
+2021-05-15 20:51:33,440 - ERROR - No such file within the directory
+2021-05-15 20:51:33,440 - INFO - got [b'config.txt', b'octet', b'tsize', b'0'] from ('172.16.1.2', 49157)
+2021-05-15 20:51:33,452 - WARNING - download complete, closing socket
+2021-05-15 20:51:34,584 - INFO - known ip: 172.16.1.7
+2021-05-15 20:51:36,678 - INFO - got [b'bootcfg.txt', b'octet', b'tsize', b'0'] from ('172.16.1.2', 49158)
+2021-05-15 20:51:36,691 - ERROR - bootcfg.txt: key error - looking in filesystem next
+2021-05-15 20:51:36,691 - ERROR - No such file within the directory
+2021-05-15 20:51:36,719 - INFO - got [b'initramfs.gz', b'octet', b'tsize', b'0'] from ('172.16.1.2', 49159)
+2021-05-15 20:51:37,905 - WARNING - download complete, closing socket
+2021-05-15 20:51:38,143 - INFO - got [b'bcm2710-rpi-3-b-plus.dtb', b'octet', b'tsize', b'0'] from ('172.16.1.2', 49160)
+2021-05-15 20:51:38,175 - WARNING - download complete, closing socket
+2021-05-15 20:51:38,391 - INFO - got [b'overlays/rpi-poe.dtbo', b'octet', b'tsize', b'0'] from ('172.16.1.2', 49161)
+2021-05-15 20:51:38,412 - ERROR - illegal operation specified
+2021-05-15 20:51:38,412 - INFO - got [b'config.txt', b'octet', b'tsize', b'0'] from ('172.16.1.2', 49162)
+2021-05-15 20:51:38,431 - WARNING - download complete, closing socket
+2021-05-15 20:51:38,433 - INFO - got [b'cmdline.txt', b'octet', b'tsize', b'0'] from ('172.16.1.2', 49163)
+2021-05-15 20:51:38,445 - WARNING - download complete, closing socket
+2021-05-15 20:51:40,852 - INFO - got [b'recovery8.img', b'octet', b'tsize', b'0'] from ('172.16.1.2', 49164)
+2021-05-15 20:51:40,865 - ERROR - recovery8.img: key error - looking in filesystem next
+2021-05-15 20:51:40,865 - ERROR - No such file within the directory
+2021-05-15 20:51:40,866 - INFO - got [b'recovery8-32.img', b'octet', b'tsize', b'0'] from ('172.16.1.2', 49165)
+2021-05-15 20:51:40,879 - ERROR - recovery8-32.img: key error - looking in filesystem next
+2021-05-15 20:51:40,879 - ERROR - No such file within the directory
+2021-05-15 20:51:40,880 - INFO - got [b'recovery7.img', b'octet', b'tsize', b'0'] from ('172.16.1.2', 49166)
+2021-05-15 20:51:40,892 - ERROR - recovery7.img: key error - looking in filesystem next
+2021-05-15 20:51:40,892 - ERROR - No such file within the directory
+2021-05-15 20:51:40,893 - INFO - got [b'recovery.img', b'octet', b'tsize', b'0'] from ('172.16.1.2', 49167)
+2021-05-15 20:51:40,904 - ERROR - recovery.img: key error - looking in filesystem next
+2021-05-15 20:51:40,904 - ERROR - No such file within the directory
+2021-05-15 20:51:40,905 - INFO - got [b'kernel8.img', b'octet', b'tsize', b'0'] from ('172.16.1.2', 49168)
+2021-05-15 20:51:40,917 - ERROR - illegal operation specified
+2021-05-15 20:51:40,917 - INFO - got [b'kernel8-32.img', b'octet', b'tsize', b'0'] from ('172.16.1.2', 49169)
+2021-05-15 20:51:40,935 - ERROR - kernel8-32.img: key error - looking in filesystem next
+2021-05-15 20:51:40,935 - ERROR - No such file within the directory
+2021-05-15 20:51:40,936 - INFO - got [b'kernel7.img', b'octet', b'tsize', b'0'] from ('172.16.1.2', 49170)
+2021-05-15 20:51:40,948 - ERROR - illegal operation specified
+2021-05-15 20:51:40,949 - INFO - got [b'armstub8-32.bin', b'octet', b'tsize', b'0'] from ('172.16.1.2', 49171)
+2021-05-15 20:51:40,965 - ERROR - armstub8-32.bin: key error - looking in filesystem next
+2021-05-15 20:51:40,965 - ERROR - No such file within the directory
+2021-05-15 20:51:40,966 - INFO - got [b'kernel7.img', b'octet', b'tsize', b'0'] from ('172.16.1.2', 49172)
+2021-05-15 20:51:44,599 - INFO - known ip: 172.16.1.7
+2021-05-15 20:51:45,119 - WARNING - download complete, closing socket
+2021-05-15 20:51:48,423 - ERROR - Socket Timed Out
+2021-05-15 20:51:48,423 - ERROR - closed socket
+2021-05-15 20:51:50,306 - INFO - known ip: 172.16.1.9
+2021-05-15 20:51:50,924 - ERROR - Socket Timed Out
+2021-05-15 20:51:50,926 - ERROR - closed socket
+2021-05-15 20:51:50,958 - ERROR - Socket Timed Out
+2021-05-15 20:51:50,958 - ERROR - closed socket
+2021-05-15 20:51:53,054 - INFO - known ip: 172.16.1.2
+2021-05-15 20:51:53,435 - INFO - known ip: 172.16.1.8
+2021-05-15 20:52:00,314 - INFO - known ip: 172.16.1.9
+2021-05-15 20:52:03,078 - INFO - known ip: 172.16.1.2
+2021-05-15 20:52:03,176 - INFO - serving client from: ('172.16.1.2', 48836)
+2021-05-15 20:52:03,181 - INFO - TCP - unsupported request: + set -x
+2021-05-15 20:52:03,181 - INFO - TCP - unsupported request: + send Hello World
+2021-05-15 20:52:03,181 - INFO - TCP - unsupported request: + echo Hello World
+2021-05-15 20:52:03,182 - INFO - TCP - unsupported request: Hello World
+2021-05-15 20:52:03,182 - INFO - TCP - unsupported request: + makenode
+2021-05-15 20:52:03,182 - INFO - TCP - unsupported request: + send MAKING NODES
+2021-05-15 20:52:03,182 - INFO - TCP - unsupported request: + echo MAKING NODES
+2021-05-15 20:52:03,182 - INFO - TCP - unsupported request: MAKING NODES
+2021-05-15 20:52:03,182 - INFO - TCP - unsupported request: + mkdir /m
+2021-05-15 20:52:03,188 - INFO - TCP - unsupported request: + mknod /dev/mmcblk0 b 179 0
+2021-05-15 20:52:03,193 - INFO - TCP - unsupported request: + mknod /dev/mmcblk0p1 b 179 1
+2021-05-15 20:52:03,199 - INFO - TCP - unsupported request: + mknod /dev/mmcblk0p2 b 179 2
+2021-05-15 20:52:03,205 - INFO - TCP - unsupported request: + send MADE NODES
+2021-05-15 20:52:03,205 - INFO - TCP - unsupported request: + echo MADE NODES
+2021-05-15 20:52:03,205 - INFO - TCP - unsupported request: MADE NODES
+2021-05-15 20:52:03,205 - INFO - TCP - unsupported request: + checkinstalled
+2021-05-15 20:52:03,205 - INFO - TCP - unsupported request: + send CHECKING IF INSTALLED
+2021-05-15 20:52:03,205 - INFO - TCP - unsupported request: + echo CHECKING IF INSTALLED
+2021-05-15 20:52:03,205 - INFO - TCP - unsupported request: CHECKING IF INSTALLED
+2021-05-15 20:52:03,207 - INFO - TCP - unsupported request: + mount -t ext4 /dev/mmcblk0p2 /m
+2021-05-15 20:52:03,237 - INFO - TCP - unsupported request: + stat /m/bin
+2021-05-15 20:52:03,242 - INFO - TCP - unsupported request: stat: can't stat '/m/bin': No such file or directory
+2021-05-15 20:52:03,245 - INFO - TCP - unsupported request: + send IS_UNINSTALLED
+2021-05-15 20:52:03,245 - INFO - TCP - unsupported request: + echo IS_UNINSTALLED
+2021-05-15 20:52:03,245 - INFO - TCT - uninstalled, sending format
+2021-05-15 20:52:03,246 - INFO - TCP - unsupported request: + true
+2021-05-15 20:52:03,248 - INFO - TCP - unsupported request: + recv
+2021-05-15 20:52:03,248 - INFO - TCP - unsupported request: + msg=
+2021-05-15 20:52:03,248 - INFO - TCP - unsupported request: + read line
+2021-05-15 20:52:03,248 - INFO - TCP - unsupported request: + [ xbusybox date -s 202105152052.03 == xEOM ]
+2021-05-15 20:52:03,249 - INFO - TCP - unsupported request: + msg=busybox date -s 202105152052.03
+2021-05-15 20:52:03,249 - INFO - TCP - unsupported request: + read line
+2021-05-15 20:52:03,249 - INFO - TCP - unsupported request: + [ xEOM == xEOM ]
+2021-05-15 20:52:03,249 - INFO - TCP - unsupported request: + echo -n busybox date -s 202105152052.03
+2021-05-15 20:52:03,249 - INFO - TCP - unsupported request: + return
+2021-05-15 20:52:03,250 - INFO - TCP - unsupported request: + req=busybox date -s 202105152052.03
+2021-05-15 20:52:03,250 - INFO - TCP - unsupported request: + send busybox date -s 202105152052.03
+2021-05-15 20:52:03,250 - INFO - TCP - unsupported request: + echo busybox date -s 202105152052.03
+2021-05-15 20:52:03,250 - INFO - TCP - unsupported request: busybox date -s 202105152052.03
+2021-05-15 20:52:03,250 - INFO - TCP - unsupported request: + send RECEIVED_DATE
+2021-05-15 20:52:03,250 - INFO - TCP - unsupported request: + echo RECEIVED_DATE
+2021-05-15 20:52:03,251 - INFO - TCP - pi successfully received date string
+2021-05-15 20:52:03,251 - INFO - TCP - unsupported request: + busybox date -s 202105152052.03
+2021-05-15 20:52:03,255 - INFO - TCP - unsupported request: Sat May 15 20:52:03 UTC 2021
+2021-05-15 20:52:03,256 - INFO - TCP - unsupported request: + send SET_DATE
+2021-05-15 20:52:03,256 - INFO - TCP - unsupported request: + echo SET_DATE
+2021-05-15 20:52:03,257 - INFO - TCP - pi successfully set local datetime
+2021-05-15 20:52:03,257 - INFO - TCP - unsupported request: + true
+2021-05-15 20:52:03,258 - INFO - TCP - unsupported request: + recv
+2021-05-15 20:52:03,258 - INFO - TCP - unsupported request: + msg=
+2021-05-15 20:52:03,258 - INFO - TCP - unsupported request: + read line
+2021-05-15 20:52:03,258 - INFO - TCP - unsupported request: + [ xformat == xEOM ]
+2021-05-15 20:52:03,259 - INFO - TCP - unsupported request: + msg=format
+2021-05-15 20:52:03,259 - INFO - TCP - unsupported request: + read line
+2021-05-15 20:52:03,259 - INFO - TCP - unsupported request: + [ xEOM == xEOM ]
+2021-05-15 20:52:03,259 - INFO - TCP - unsupported request: + echo -n format
+2021-05-15 20:52:03,259 - INFO - TCP - unsupported request: + return
+2021-05-15 20:52:03,260 - INFO - TCP - unsupported request: + req=format
+2021-05-15 20:52:03,260 - INFO - TCP - unsupported request: + send format
+2021-05-15 20:52:03,260 - INFO - TCP - unsupported request: + echo format
+2021-05-15 20:52:03,260 - INFO - TCP - unsupported request: format
+2021-05-15 20:52:03,260 - INFO - TCP - unsupported request: + send RECEIVED_FORMAT
+2021-05-15 20:52:03,260 - INFO - TCP - unsupported request: + echo RECEIVED_FORMAT
+2021-05-15 20:52:03,261 - INFO - TCP - pi successfully received format command
+2021-05-15 20:52:03,261 - INFO - TCP - unsupported request: + format
+2021-05-15 20:52:03,261 - INFO - TCP - unsupported request: + send FORMATTING
+2021-05-15 20:52:03,261 - INFO - TCP - unsupported request: + echo FORMATTING
+2021-05-15 20:52:03,261 - INFO - TCP - unsupported request: FORMATTING
+2021-05-15 20:52:03,261 - INFO - TCP - unsupported request: + umount /m
+2021-05-15 20:52:03,326 - INFO - TCP - unsupported request: + umount /new_root
+2021-05-15 20:52:03,331 - INFO - TCP - unsupported request: umount: can't umount /new_root: No such file or directory
+2021-05-15 20:52:03,333 - INFO - TCP - unsupported request: + sfdisk /dev/mmcblk0
+2021-05-15 20:52:03,359 - INFO - TCP - unsupported request: Checking that no-one is using this disk right now ... OK
+2021-05-15 20:52:03,360 - INFO - TCP - unsupported request: 
+2021-05-15 20:52:03,360 - INFO - TCP - unsupported request: Disk /dev/mmcblk0: 29.2 GiB, 31312576512 bytes, 61157376 sectors
+2021-05-15 20:52:03,360 - INFO - TCP - unsupported request: Units: sectors of 1 * 512 = 512 bytes
+2021-05-15 20:52:03,360 - INFO - TCP - unsupported request: Sector size (logical/physical): 512 bytes / 512 bytes
+2021-05-15 20:52:03,360 - INFO - TCP - unsupported request: I/O size (minimum/optimal): 512 bytes / 512 bytes
+2021-05-15 20:52:03,360 - INFO - TCP - unsupported request: Disklabel type: dos
+2021-05-15 20:52:03,360 - INFO - TCP - unsupported request: Disk identifier: 0x5f5d7a31
+2021-05-15 20:52:03,360 - INFO - TCP - unsupported request: 
+2021-05-15 20:52:03,360 - INFO - TCP - unsupported request: Old situation:
+2021-05-15 20:52:03,361 - INFO - TCP - unsupported request: 
+2021-05-15 20:52:03,361 - INFO - TCP - unsupported request: Device         Boot Start      End  Sectors  Size Id Type
+2021-05-15 20:52:03,361 - INFO - TCP - unsupported request: /dev/mmcblk0p1       8192    96663    88472 43.2M  c W95 FAT32 (LBA)
+2021-05-15 20:52:03,361 - INFO - TCP - unsupported request: /dev/mmcblk0p2      98304 61157375 61059072 29.1G 83 Linux
+2021-05-15 20:52:03,361 - INFO - TCP - unsupported request: 
+2021-05-15 20:52:03,361 - INFO - TCP - unsupported request: >>> Script header accepted.
+2021-05-15 20:52:03,361 - INFO - TCP - unsupported request: >>> Script header accepted.
+2021-05-15 20:52:03,361 - INFO - TCP - unsupported request: >>> Script header accepted.
+2021-05-15 20:52:03,362 - INFO - TCP - unsupported request: >>> Script header accepted.
+2021-05-15 20:52:03,362 - INFO - TCP - unsupported request: >>> Created a new DOS disklabel with disk identifier 0x5f5d7a31.
+2021-05-15 20:52:03,362 - INFO - TCP - unsupported request: /dev/mmcblk0p1: Created a new partition 1 of type 'W95 FAT32 (LBA)' and of size 43.2 MiB.
+2021-05-15 20:52:03,403 - INFO - TCP - unsupported request: Partition #1 contains a vfat signature.
+2021-05-15 20:52:03,403 - INFO - TCP - unsupported request: /dev/mmcblk0p2: Created a new partition 2 of type 'Linux' and of size 29.1 GiB.
+2021-05-15 20:52:03,403 - INFO - TCP - unsupported request: Partition #2 contains a ext4 signature.
+2021-05-15 20:52:03,405 - INFO - TCP - unsupported request: /dev/mmcblk0p3: Done.
+2021-05-15 20:52:03,405 - INFO - TCP - unsupported request: 
+2021-05-15 20:52:03,405 - INFO - TCP - unsupported request: New situation:
+2021-05-15 20:52:03,406 - INFO - TCP - unsupported request: 
+2021-05-15 20:52:03,406 - INFO - TCP - unsupported request: Device         Boot Start      End  Sectors  Size Id Type
+2021-05-15 20:52:03,406 - INFO - TCP - unsupported request: /dev/mmcblk0p1       8192    96663    88472 43.2M  c W95 FAT32 (LBA)
+2021-05-15 20:52:03,406 - INFO - TCP - unsupported request: /dev/mmcblk0p2      98304 61157375 61059072 29.1G 83 Linux
+2021-05-15 20:52:03,406 - INFO - TCP - unsupported request: 
+2021-05-15 20:52:03,406 - INFO - TCP - unsupported request: The partition table has been altered.
+2021-05-15 20:52:03,406 - INFO - TCP - unsupported request: Calling ioctl() to re-read partition table.
+2021-05-15 20:52:03,406 - INFO - TCP - unsupported request: Syncing disks.
+2021-05-15 20:52:03,407 - INFO - TCP - unsupported request: + mkfs.ext4 /dev/mmcblk0p2 -L rootfs
+2021-05-15 20:52:03,415 - INFO - TCP - unsupported request: mke2fs 1.43.4 (31-Jan-2017)
+2021-05-15 20:52:03,419 - INFO - TCP - unsupported request: ext2fs_check_if_mount: Can't check if filesystem is mounted due to missing mtab file while determining whether /dev/mmcblk0p2 is mounted.
+2021-05-15 20:52:03,447 - INFO - known ip: 172.16.1.8
+2021-05-15 20:52:04,030 - INFO - known ip: 172.16.1.3
+2021-05-15 20:52:10,171 - INFO - TCP - unsupported request: Discarding device blocks:    4096/7632384 528384/76323842101248/76323843674112/76323845246976/76323846819840/7632384               done
+2021-05-15 20:52:10,173 - INFO - TCP - unsupported request: Creating filesystem with 7632384 4k blocks and 1908736 inodes
+2021-05-15 20:52:10,173 - INFO - TCP - unsupported request: Filesystem UUID: 6abe5718-b5bf-11eb-99f6-b827eb106c63
+2021-05-15 20:52:10,173 - INFO - TCP - unsupported request: Superblock backups stored on blocks:
+2021-05-15 20:52:10,173 - INFO - TCP - unsupported request: 32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208,
+2021-05-15 20:52:10,173 - INFO - TCP - unsupported request: 4096000
+2021-05-15 20:52:10,173 - INFO - TCP - unsupported request: 
+2021-05-15 20:52:10,176 - INFO - TCP - unsupported request: Allocating group tables:   0/233       done
+2021-05-15 20:52:10,177 - INFO - TCP - unsupported request: Writing inode tables:   0/233       done
+2021-05-15 20:52:10,737 - INFO - TCP - unsupported request: Creating journal (32768 blocks): done
+2021-05-15 20:52:11,148 - INFO - known ip: 172.16.1.10
+2021-05-15 20:52:14,043 - INFO - known ip: 172.16.1.3
+2021-05-15 20:52:16,282 - INFO - known ip: 172.16.1.6
+2021-05-15 20:52:21,153 - INFO - known ip: 172.16.1.10
+2021-05-15 20:52:26,110 - INFO - TCP - unsupported request: Writing superblocks and filesystem accounting information:   0/233  2/233  6/233  8/233 10/233 26/233 28/233 50/233 82/233126/233       done
+2021-05-15 20:52:26,111 - INFO - TCP - unsupported request: 
+2021-05-15 20:52:26,112 - INFO - TCP - unsupported request: + sfdisk /dev/mmcblk0
+2021-05-15 20:52:26,168 - INFO - TCP - unsupported request: Checking that no-one is using this disk right now ... OK
+2021-05-15 20:52:26,168 - INFO - TCP - unsupported request: 
+2021-05-15 20:52:26,169 - INFO - TCP - unsupported request: Disk /dev/mmcblk0: 29.2 GiB, 31312576512 bytes, 61157376 sectors
+2021-05-15 20:52:26,170 - INFO - TCP - unsupported request: Units: sectors of 1 * 512 = 512 bytes
+2021-05-15 20:52:26,170 - INFO - TCP - unsupported request: Sector size (logical/physical): 512 bytes / 512 bytes
+2021-05-15 20:52:26,171 - INFO - TCP - unsupported request: I/O size (minimum/optimal): 512 bytes / 512 bytes
+2021-05-15 20:52:26,171 - INFO - TCP - unsupported request: Disklabel type: dos
+2021-05-15 20:52:26,171 - INFO - TCP - unsupported request: Disk identifier: 0x5f5d7a31
+2021-05-15 20:52:26,171 - INFO - TCP - unsupported request: 
+2021-05-15 20:52:26,171 - INFO - TCP - unsupported request: Old situation:
+2021-05-15 20:52:26,172 - INFO - TCP - unsupported request: 
+2021-05-15 20:52:26,172 - INFO - TCP - unsupported request: Device         Boot Start      End  Sectors  Size Id Type
+2021-05-15 20:52:26,172 - INFO - TCP - unsupported request: /dev/mmcblk0p1       8192    96663    88472 43.2M  c W95 FAT32 (LBA)
+2021-05-15 20:52:26,172 - INFO - TCP - unsupported request: /dev/mmcblk0p2      98304 61157375 61059072 29.1G 83 Linux
+2021-05-15 20:52:26,172 - INFO - TCP - unsupported request: 
+2021-05-15 20:52:26,172 - INFO - TCP - unsupported request: >>> Script header accepted.
+2021-05-15 20:52:26,172 - INFO - TCP - unsupported request: >>> Script header accepted.
+2021-05-15 20:52:26,172 - INFO - TCP - unsupported request: >>> Script header accepted.
+2021-05-15 20:52:26,173 - INFO - TCP - unsupported request: >>> Script header accepted.
+2021-05-15 20:52:26,173 - INFO - TCP - unsupported request: >>> Created a new DOS disklabel with disk identifier 0x5f5d7a31.
+2021-05-15 20:52:26,173 - INFO - TCP - unsupported request: /dev/mmcblk0p1: Created a new partition 1 of type 'W95 FAT32 (LBA)' and of size 43.2 MiB.
+2021-05-15 20:52:26,173 - INFO - TCP - unsupported request: Partition #1 contains a vfat signature.
+2021-05-15 20:52:26,205 - INFO - TCP - unsupported request: /dev/mmcblk0p2: Created a new partition 2 of type 'Linux' and of size 29.1 GiB.
+2021-05-15 20:52:26,205 - INFO - TCP - unsupported request: Partition #2 contains a ext4 signature.
+2021-05-15 20:52:26,215 - INFO - TCP - unsupported request: /dev/mmcblk0p3: Done.
+2021-05-15 20:52:26,215 - INFO - TCP - unsupported request: 
+2021-05-15 20:52:26,215 - INFO - TCP - unsupported request: New situation:
+2021-05-15 20:52:26,215 - INFO - TCP - unsupported request: 
+2021-05-15 20:52:26,215 - INFO - TCP - unsupported request: Device         Boot Start      End  Sectors  Size Id Type
+2021-05-15 20:52:26,215 - INFO - TCP - unsupported request: /dev/mmcblk0p1       8192    96663    88472 43.2M  c W95 FAT32 (LBA)
+2021-05-15 20:52:26,215 - INFO - TCP - unsupported request: /dev/mmcblk0p2      98304 61157375 61059072 29.1G 83 Linux
+2021-05-15 20:52:26,216 - INFO - TCP - unsupported request: 
+2021-05-15 20:52:26,216 - INFO - TCP - unsupported request: The partition table has been altered.
+2021-05-15 20:52:26,216 - INFO - TCP - unsupported request: Calling ioctl() to re-read partition table.
+2021-05-15 20:52:26,216 - INFO - TCP - unsupported request: Syncing disks.
+2021-05-15 20:52:26,216 - INFO - TCP - unsupported request: + sfdisk --dump /dev/mmcblk0
+2021-05-15 20:52:26,224 - INFO - TCP - unsupported request: label: dos
+2021-05-15 20:52:26,224 - INFO - TCP - unsupported request: label-id: 0x5f5d7a31
+2021-05-15 20:52:26,225 - INFO - TCP - unsupported request: device: /dev/mmcblk0
+2021-05-15 20:52:26,225 - INFO - TCP - unsupported request: unit: sectors
+2021-05-15 20:52:26,225 - INFO - TCP - unsupported request: 
+2021-05-15 20:52:26,225 - INFO - TCP - unsupported request: /dev/mmcblk0p1 : start=        8192, size=       88472, type=c
+2021-05-15 20:52:26,225 - INFO - TCP - unsupported request: /dev/mmcblk0p2 : start=       98304, size=    61059072, type=83
+2021-05-15 20:52:26,226 - INFO - TCP - unsupported request: + mkfs.ext4 /dev/mmcblk0p2 -L rootfs
+2021-05-15 20:52:26,234 - INFO - TCP - unsupported request: mke2fs 1.43.4 (31-Jan-2017)
+2021-05-15 20:52:26,238 - INFO - TCP - unsupported request: ext2fs_check_if_mount: Can't check if filesystem is mounted due to missing mtab file while determining whether /dev/mmcblk0p2 is mounted.
+2021-05-15 20:52:26,288 - INFO - known ip: 172.16.1.6
+2021-05-15 20:52:31,514 - INFO - TCP - unsupported request: Discarding device blocks:    4096/76323841052672/76323842625536/76323844198400/76323845771264/76323847344128/7632384               done
+2021-05-15 20:52:31,517 - INFO - TCP - unsupported request: Creating filesystem with 7632384 4k blocks and 1908736 inodes
+2021-05-15 20:52:31,517 - INFO - TCP - unsupported request: Filesystem UUID: 777704be-b5bf-11eb-b832-b827eb106c63
+2021-05-15 20:52:31,517 - INFO - TCP - unsupported request: Superblock backups stored on blocks:
+2021-05-15 20:52:31,518 - INFO - TCP - unsupported request: 32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208,
+2021-05-15 20:52:31,518 - INFO - TCP - unsupported request: 4096000
+2021-05-15 20:52:31,518 - INFO - TCP - unsupported request: 
+2021-05-15 20:52:31,519 - INFO - TCP - unsupported request: Allocating group tables:   0/233       done
+2021-05-15 20:52:31,520 - INFO - TCP - unsupported request: Writing inode tables:   0/233       done
+2021-05-15 20:52:32,084 - INFO - TCP - unsupported request: Creating journal (32768 blocks): done
+2021-05-15 20:52:46,903 - INFO - TCP - unsupported request: Writing superblocks and filesystem accounting information:   0/233  2/233  4/233  8/233 10/233 26/233       done
+2021-05-15 20:52:46,903 - INFO - TCP - unsupported request: 
+2021-05-15 20:52:46,904 - INFO - TCP - unsupported request: + mount -t ext4 /dev/mmcblk0p2 /m
+2021-05-15 20:52:46,934 - INFO - TCP - unsupported request: + send FINISHED FORMATTING
+2021-05-15 20:52:46,935 - INFO - TCP - unsupported request: + echo FINISHED FORMATTING
+2021-05-15 20:52:46,935 - INFO - TCP - unsupported request: FINISHED FORMATTING
+2021-05-15 20:52:46,935 - INFO - TCP - unsupported request: + cd /m
+2021-05-15 20:52:46,936 - INFO - TCP - unsupported request: + nc 172.16.1.128 4444
+2021-05-15 20:52:46,937 - INFO - TCP - unsupported request: + tar -xf -
+2021-05-15 20:52:46,938 - INFO - TCP - unsupported request: + gunzip
+2021-05-15 20:52:46,942 - INFO - TCP - started file_transferring
+2021-05-15 20:52:48,997 - DEBUG - TCP - read rootfs.tgz
+2021-05-15 20:52:48,998 - DEBUG - TCP - sending rootfs.tgz
+2021-05-15 20:56:09,389 - DEBUG - TCP - finished sending rootfs.tgz
+2021-05-15 20:56:09,390 - INFO - TCP - finished file_transferring
+2021-05-15 20:56:16,193 - INFO - TCP - unsupported request: + mounting
+2021-05-15 20:56:16,194 - INFO - TCP - unsupported request: + send MOUNTING
+2021-05-15 20:56:16,194 - INFO - TCP - unsupported request: + echo MOUNTING
+2021-05-15 20:56:16,194 - INFO - TCP - pi mounting has started
+2021-05-15 20:56:16,194 - INFO - TCP - unsupported request: + mkdir -p /new_root
+2021-05-15 20:56:16,199 - INFO - TCP - unsupported request: + mount -t ext4 /dev/mmcblk0p2 /new_root
+2021-05-15 20:56:16,205 - INFO - TCP - unsupported request: + send FINISHED_MOUNTING
+2021-05-15 20:56:16,205 - INFO - TCP - unsupported request: + echo FINISHED_MOUNTING
+2021-05-15 20:56:16,205 - INFO - TCP - pi successfully mounted filesystem
+2021-05-15 20:56:16,205 - INFO - TCP - unsupported request: + send IS_FORMATTED
+2021-05-15 20:56:16,205 - INFO - TCP - unsupported request: + echo IS_FORMATTED
+2021-05-15 20:56:16,206 - INFO - TCP - is formatted, sending file
+2021-05-15 20:56:16,206 - INFO - tcpdump
+2021-05-15 20:56:27,684 - INFO - known ip: 172.16.1.2
+2021-05-15 20:56:37,694 - INFO - known ip: 172.16.1.2
+2021-05-15 20:57:00,078 - INFO - known ip: 172.16.1.7
+2021-05-15 20:57:14,824 - INFO - known ip: 172.16.1.9
+2021-05-15 20:57:18,383 - INFO - known ip: 172.16.1.8
+2021-05-15 20:57:28,794 - INFO - known ip: 172.16.1.3
+2021-05-15 20:57:36,418 - INFO - known ip: 172.16.1.10
+2021-05-15 20:57:40,763 - INFO - known ip: 172.16.1.6
+2021-05-15 21:01:52,466 - INFO - known ip: 172.16.1.2
+2021-05-15 21:02:10,093 - INFO - known ip: 172.16.1.7
+2021-05-15 21:02:24,846 - INFO - known ip: 172.16.1.9
+2021-05-15 21:02:28,399 - INFO - known ip: 172.16.1.8
+2021-05-15 21:02:38,816 - INFO - known ip: 172.16.1.3
+2021-05-15 21:02:46,452 - INFO - known ip: 172.16.1.10
+2021-05-15 21:02:50,778 - INFO - known ip: 172.16.1.6
+2021-05-15 21:04:04,849 - WARNING - Power_Cycle - Setting pi at port 6 to OFF
+2021-05-15 21:04:05,055 - WARNING - Power_Cycle - Set pi at interface 1 port 6 to OFF
+2021-05-15 21:04:06,056 - WARNING - Power_Cycle - Setting pi at port 6 to ON
+2021-05-15 21:04:06,236 - WARNING - Power_Cycle - Set pi at interface 1 port 6 to ON
+2021-05-15 21:04:16,092 - INFO - known ip: 172.16.1.7
+2021-05-15 21:04:16,096 - INFO - got [b'a6254def/start4.elf', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 9543)
+2021-05-15 21:04:16,110 - ERROR - a6254def/start4.elf: key error - looking in filesystem next
+2021-05-15 21:04:16,110 - ERROR - No such file within the directory
+2021-05-15 21:04:16,111 - INFO - got [b'a6254def/start.elf', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 9544)
+2021-05-15 21:04:16,125 - ERROR - a6254def/start.elf: key error - looking in filesystem next
+2021-05-15 21:04:16,125 - ERROR - No such file within the directory
+2021-05-15 21:04:16,126 - INFO - got [b'config.txt', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 9545)
+2021-05-15 21:04:16,195 - WARNING - download complete, closing socket
+2021-05-15 21:04:16,196 - INFO - got [b'vl805.sig', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 9546)
+2021-05-15 21:04:16,207 - ERROR - vl805.sig: key error - looking in filesystem next
+2021-05-15 21:04:16,207 - ERROR - No such file within the directory
+2021-05-15 21:04:16,208 - INFO - got [b'pieeprom.sig', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 9547)
+2021-05-15 21:04:16,220 - ERROR - pieeprom.sig: key error - looking in filesystem next
+2021-05-15 21:04:16,220 - ERROR - No such file within the directory
+2021-05-15 21:04:16,221 - INFO - got [b'recover4.elf', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 9548)
+2021-05-15 21:04:16,233 - ERROR - recover4.elf: key error - looking in filesystem next
+2021-05-15 21:04:16,233 - ERROR - No such file within the directory
+2021-05-15 21:04:16,234 - INFO - got [b'recovery.elf', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 9549)
+2021-05-15 21:04:16,245 - ERROR - recovery.elf: key error - looking in filesystem next
+2021-05-15 21:04:16,245 - ERROR - No such file within the directory
+2021-05-15 21:04:16,300 - INFO - got [b'start4.elf', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 9550)
+2021-05-15 21:04:19,098 - WARNING - download complete, closing socket
+2021-05-15 21:04:19,825 - INFO - got [b'fixup4.dat', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 9551)
+2021-05-15 21:04:19,856 - WARNING - download complete, closing socket
+2021-05-15 21:04:20,144 - INFO - got [b'recovery.elf', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 49153)
+2021-05-15 21:04:20,165 - ERROR - recovery.elf: key error - looking in filesystem next
+2021-05-15 21:04:20,165 - ERROR - No such file within the directory
+2021-05-15 21:04:20,167 - INFO - got [b'config.txt', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 49154)
+2021-05-15 21:04:20,197 - WARNING - download complete, closing socket
+2021-05-15 21:04:20,591 - INFO - got [b'dt-blob.bin', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 49155)
+2021-05-15 21:04:20,603 - ERROR - dt-blob.bin: key error - looking in filesystem next
+2021-05-15 21:04:20,604 - ERROR - No such file within the directory
+2021-05-15 21:04:20,626 - INFO - got [b'recovery.elf', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 49156)
+2021-05-15 21:04:20,637 - ERROR - recovery.elf: key error - looking in filesystem next
+2021-05-15 21:04:20,638 - ERROR - No such file within the directory
+2021-05-15 21:04:20,639 - INFO - got [b'config.txt', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 49157)
+2021-05-15 21:04:20,663 - WARNING - download complete, closing socket
+2021-05-15 21:04:24,118 - INFO - got [b'bootcfg.txt', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 49158)
+2021-05-15 21:04:24,130 - ERROR - bootcfg.txt: key error - looking in filesystem next
+2021-05-15 21:04:24,130 - ERROR - No such file within the directory
+2021-05-15 21:04:24,138 - INFO - got [b'initramfs.gz', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 49159)
+2021-05-15 21:04:24,853 - WARNING - download complete, closing socket
+2021-05-15 21:04:25,143 - INFO - got [b'bcm2711-rpi-4-b.dtb', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 49160)
+2021-05-15 21:04:25,199 - WARNING - download complete, closing socket
+2021-05-15 21:04:25,261 - INFO - got [b'overlays/overlay_map.dtb', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 49161)
+2021-05-15 21:04:25,273 - ERROR - overlays/overlay_map.dtb: key error - looking in filesystem next
+2021-05-15 21:04:25,273 - ERROR - No such file within the directory
+2021-05-15 21:04:25,557 - INFO - got [b'overlays/rpi-poe.dtbo', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 49162)
+2021-05-15 21:04:25,595 - ERROR - illegal operation specified
+2021-05-15 21:04:25,596 - INFO - got [b'config.txt', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 49163)
+2021-05-15 21:04:25,625 - WARNING - download complete, closing socket
+2021-05-15 21:04:25,652 - INFO - got [b'cmdline.txt', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 49164)
+2021-05-15 21:04:25,677 - WARNING - download complete, closing socket
+2021-05-15 21:04:26,107 - INFO - known ip: 172.16.1.7
+2021-05-15 21:04:27,143 - INFO - got [b'recovery8.img', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 49165)
+2021-05-15 21:04:27,156 - ERROR - recovery8.img: key error - looking in filesystem next
+2021-05-15 21:04:27,156 - ERROR - No such file within the directory
+2021-05-15 21:04:27,157 - INFO - got [b'recovery8-32.img', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 49166)
+2021-05-15 21:04:27,168 - ERROR - recovery8-32.img: key error - looking in filesystem next
+2021-05-15 21:04:27,168 - ERROR - No such file within the directory
+2021-05-15 21:04:27,169 - INFO - got [b'recovery7l.img', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 49167)
+2021-05-15 21:04:27,180 - ERROR - recovery7l.img: key error - looking in filesystem next
+2021-05-15 21:04:27,180 - ERROR - No such file within the directory
+2021-05-15 21:04:27,181 - INFO - got [b'recovery7.img', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 49168)
+2021-05-15 21:04:27,193 - ERROR - recovery7.img: key error - looking in filesystem next
+2021-05-15 21:04:27,193 - ERROR - No such file within the directory
+2021-05-15 21:04:27,194 - INFO - got [b'recovery.img', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 49169)
+2021-05-15 21:04:27,205 - ERROR - recovery.img: key error - looking in filesystem next
+2021-05-15 21:04:27,206 - ERROR - No such file within the directory
+2021-05-15 21:04:27,206 - INFO - got [b'kernel8.img', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 49170)
+2021-05-15 21:04:27,286 - ERROR - illegal operation specified
+2021-05-15 21:04:27,286 - INFO - got [b'kernel8-32.img', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 49171)
+2021-05-15 21:04:27,302 - ERROR - kernel8-32.img: key error - looking in filesystem next
+2021-05-15 21:04:27,302 - ERROR - No such file within the directory
+2021-05-15 21:04:27,303 - INFO - got [b'kernel7l.img', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 49172)
+2021-05-15 21:04:27,347 - ERROR - illegal operation specified
+2021-05-15 21:04:27,347 - INFO - got [b'armstub8-32-gic.bin', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 49173)
+2021-05-15 21:04:27,362 - ERROR - armstub8-32-gic.bin: key error - looking in filesystem next
+2021-05-15 21:04:27,362 - ERROR - No such file within the directory
+2021-05-15 21:04:27,363 - INFO - got [b'kernel7l.img', b'octet', b'tsize', b'0', b'blksize', b'1024'] from ('172.16.1.7', 49174)
+2021-05-15 21:04:29,519 - WARNING - download complete, closing socket
+2021-05-15 21:04:35,606 - ERROR - Socket Timed Out
+2021-05-15 21:04:35,606 - ERROR - closed socket
+2021-05-15 21:04:37,296 - ERROR - Socket Timed Out
+2021-05-15 21:04:37,298 - ERROR - closed socket
+2021-05-15 21:04:37,354 - ERROR - Socket Timed Out
+2021-05-15 21:04:37,354 - ERROR - closed socket
+2021-05-15 21:04:38,295 - INFO - known ip: 172.16.1.7
+2021-05-15 21:04:48,320 - INFO - known ip: 172.16.1.7
+2021-05-15 21:04:48,406 - INFO - serving client from: ('172.16.1.7', 36058)
+2021-05-15 21:04:48,410 - INFO - TCP - unsupported request: + set -x
+2021-05-15 21:04:48,410 - INFO - TCP - unsupported request: + send Hello World
+2021-05-15 21:04:48,411 - INFO - TCP - unsupported request: + echo Hello World
+2021-05-15 21:04:48,411 - INFO - TCP - unsupported request: Hello World
+2021-05-15 21:04:48,411 - INFO - TCP - unsupported request: + makenode
+2021-05-15 21:04:48,411 - INFO - TCP - unsupported request: + send MAKING NODES
+2021-05-15 21:04:48,411 - INFO - TCP - unsupported request: + echo MAKING NODES
+2021-05-15 21:04:48,411 - INFO - TCP - unsupported request: MAKING NODES
+2021-05-15 21:04:48,411 - INFO - TCP - unsupported request: + mkdir /m
+2021-05-15 21:04:48,417 - INFO - TCP - unsupported request: + mknod /dev/mmcblk0 b 179 0
+2021-05-15 21:04:48,422 - INFO - TCP - unsupported request: + mknod /dev/mmcblk0p1 b 179 1
+2021-05-15 21:04:48,427 - INFO - TCP - unsupported request: + mknod /dev/mmcblk0p2 b 179 2
+2021-05-15 21:04:48,433 - INFO - TCP - unsupported request: + send MADE NODES
+2021-05-15 21:04:48,433 - INFO - TCP - unsupported request: + echo MADE NODES
+2021-05-15 21:04:48,433 - INFO - TCP - unsupported request: MADE NODES
+2021-05-15 21:04:48,434 - INFO - TCP - unsupported request: + checkinstalled
+2021-05-15 21:04:48,434 - INFO - TCP - unsupported request: + send CHECKING IF INSTALLED
+2021-05-15 21:04:48,434 - INFO - TCP - unsupported request: + echo CHECKING IF INSTALLED
+2021-05-15 21:04:48,434 - INFO - TCP - unsupported request: CHECKING IF INSTALLED
+2021-05-15 21:04:48,435 - INFO - TCP - unsupported request: + mount -t ext4 /dev/mmcblk0p2 /m
+2021-05-15 21:04:48,664 - INFO - TCP - unsupported request: + stat /m/bin
+2021-05-15 21:04:48,671 - INFO - TCP - unsupported request: File: /m/bin
+2021-05-15 21:04:48,671 - INFO - TCP - unsupported request: Size: 4096      	Blocks: 8          IO Block: 4096   directory
+2021-05-15 21:04:48,672 - INFO - TCP - unsupported request: Device: b302h/45826d	Inode: 1177345     Links: 2
+2021-05-15 21:04:48,672 - INFO - TCP - unsupported request: Access: (0755/drwxr-xr-x)  Uid: (    0/ UNKNOWN)   Gid: (    0/ UNKNOWN)
+2021-05-15 21:04:48,672 - INFO - TCP - unsupported request: Access: 2018-06-27 00:21:56.000000000
+2021-05-15 21:04:48,672 - INFO - TCP - unsupported request: Modify: 2020-12-09 08:44:26.000000000
+2021-05-15 21:04:48,672 - INFO - TCP - unsupported request: Change: 2020-12-09 08:44:26.000000000
+2021-05-15 21:04:48,672 - INFO - TCP - unsupported request: 
+2021-05-15 21:04:48,672 - INFO - TCP - unsupported request: + send IS_INSTALLED
+2021-05-15 21:04:48,672 - INFO - TCP - unsupported request: + echo IS_INSTALLED
+2021-05-15 21:04:48,673 - INFO - TCP - installed, sending boot
+2021-05-15 21:04:48,673 - INFO - TCP - unsupported request: + umount /m
+2021-05-15 21:04:48,729 - INFO - TCP - unsupported request: + mounting
+2021-05-15 21:04:48,729 - INFO - TCP - unsupported request: + send MOUNTING
+2021-05-15 21:04:48,729 - INFO - TCP - unsupported request: + echo MOUNTING
+2021-05-15 21:04:48,729 - INFO - TCP - pi mounting has started
+2021-05-15 21:04:48,729 - INFO - TCP - unsupported request: + mkdir -p /new_root
+2021-05-15 21:04:48,734 - INFO - TCP - unsupported request: + mount -t ext4 /dev/mmcblk0p2 /new_root
+2021-05-15 21:04:48,751 - INFO - TCP - unsupported request: + send FINISHED_MOUNTING
+2021-05-15 21:04:48,751 - INFO - TCP - unsupported request: + echo FINISHED_MOUNTING
+2021-05-15 21:04:48,751 - INFO - TCP - pi successfully mounted filesystem
+2021-05-15 21:04:48,752 - INFO - TCP - unsupported request: + true
+2021-05-15 21:04:48,754 - INFO - TCP - unsupported request: + recv
+2021-05-15 21:04:48,754 - INFO - TCP - unsupported request: + msg=
+2021-05-15 21:04:48,754 - INFO - TCP - unsupported request: + read line
+2021-05-15 21:04:48,754 - INFO - TCP - unsupported request: + [ xbusybox date -s 202105152104.48 == xEOM ]
+2021-05-15 21:04:48,755 - INFO - TCP - unsupported request: + msg=busybox date -s 202105152104.48
+2021-05-15 21:04:48,755 - INFO - TCP - unsupported request: + read line
+2021-05-15 21:04:48,755 - INFO - TCP - unsupported request: + [ xEOM == xEOM ]
+2021-05-15 21:04:48,755 - INFO - TCP - unsupported request: + echo -n busybox date -s 202105152104.48
+2021-05-15 21:04:48,755 - INFO - TCP - unsupported request: + return
+2021-05-15 21:04:48,756 - INFO - TCP - unsupported request: + req=busybox date -s 202105152104.48
+2021-05-15 21:04:48,756 - INFO - TCP - unsupported request: + send busybox date -s 202105152104.48
+2021-05-15 21:04:48,756 - INFO - TCP - unsupported request: + echo busybox date -s 202105152104.48
+2021-05-15 21:04:48,756 - INFO - TCP - unsupported request: busybox date -s 202105152104.48
+2021-05-15 21:04:48,756 - INFO - TCP - unsupported request: + send RECEIVED_DATE
+2021-05-15 21:04:48,757 - INFO - TCP - unsupported request: + echo RECEIVED_DATE
+2021-05-15 21:04:48,757 - INFO - TCP - pi successfully received date string
+2021-05-15 21:04:48,757 - INFO - TCP - unsupported request: + busybox date -s 202105152104.48
+2021-05-15 21:04:48,762 - INFO - TCP - unsupported request: Sat May 15 21:04:48 UTC 2021
+2021-05-15 21:04:48,763 - INFO - TCP - unsupported request: + send SET_DATE
+2021-05-15 21:04:48,763 - INFO - TCP - unsupported request: + echo SET_DATE
+2021-05-15 21:04:48,763 - INFO - TCP - pi successfully set local datetime
+2021-05-15 21:04:48,763 - INFO - TCP - unsupported request: + true
+2021-05-15 21:04:48,765 - INFO - TCP - unsupported request: + recv
+2021-05-15 21:04:48,765 - INFO - TCP - unsupported request: + msg=
+2021-05-15 21:04:48,765 - INFO - TCP - unsupported request: + read line
+2021-05-15 21:04:48,765 - INFO - TCP - unsupported request: + [ xboot == xEOM ]
+2021-05-15 21:04:48,765 - INFO - TCP - unsupported request: + msg=boot
+2021-05-15 21:04:48,766 - INFO - TCP - unsupported request: + read line
+2021-05-15 21:04:48,766 - INFO - TCP - unsupported request: + [ xEOM == xEOM ]
+2021-05-15 21:04:48,766 - INFO - TCP - unsupported request: + echo -n boot
+2021-05-15 21:04:48,766 - INFO - TCP - unsupported request: + return
+2021-05-15 21:04:48,767 - INFO - TCP - unsupported request: + req=boot
+2021-05-15 21:04:48,767 - INFO - TCP - unsupported request: + send boot
+2021-05-15 21:04:48,767 - INFO - TCP - unsupported request: + echo boot
+2021-05-15 21:04:48,767 - INFO - TCP - unsupported request: boot
+2021-05-15 21:04:48,767 - INFO - TCP - unsupported request: + send RECEIVED_BOOT
+2021-05-15 21:04:48,767 - INFO - TCP - unsupported request: + echo RECEIVED_BOOT
+2021-05-15 21:04:48,767 - INFO - TCP - pi successfully received boot command
+2021-05-15 21:04:48,767 - INFO - TCP - unsupported request: + mounting
+2021-05-15 21:04:48,768 - INFO - TCP - unsupported request: + send MOUNTING
+2021-05-15 21:04:48,768 - INFO - TCP - unsupported request: + echo MOUNTING
+2021-05-15 21:04:48,768 - INFO - TCP - pi mounting has started
+2021-05-15 21:04:48,768 - INFO - TCP - unsupported request: + mkdir -p /new_root
+2021-05-15 21:04:48,773 - INFO - TCP - unsupported request: + mount -t ext4 /dev/mmcblk0p2 /new_root
+2021-05-15 21:04:48,778 - INFO - TCP - unsupported request: mount: mounting /dev/mmcblk0p2 on /new_root failed: Device or resource busy
+2021-05-15 21:04:48,780 - INFO - TCP - unsupported request: + send FINISHED_MOUNTING
+2021-05-15 21:04:48,780 - INFO - TCP - unsupported request: + echo FINISHED_MOUNTING
+2021-05-15 21:04:48,780 - INFO - TCP - pi successfully mounted filesystem
+2021-05-15 21:04:48,780 - INFO - TCP - unsupported request: + exit 0
+2021-05-15 21:04:48,780 - INFO - tcpdump
+2021-05-15 21:05:02,673 - INFO - known ip: 172.16.1.7
+2021-05-15 21:05:06,497 - INFO - known ip: 172.16.1.7
+2021-05-15 21:05:12,687 - INFO - known ip: 172.16.1.7
+2021-05-15 21:07:02,581 - INFO - known ip: 172.16.1.2
+2021-05-15 21:07:34,868 - INFO - known ip: 172.16.1.9
+2021-05-15 21:07:38,414 - INFO - known ip: 172.16.1.8
+2021-05-15 21:07:48,832 - INFO - known ip: 172.16.1.3
+2021-05-15 21:07:56,488 - INFO - known ip: 172.16.1.10
+2021-05-15 21:08:00,820 - INFO - known ip: 172.16.1.6
+2021-05-15 21:08:20,336 - WARNING - Power_Cycle - Setting pi at port 7 to OFF
+2021-05-15 21:08:20,547 - WARNING - Power_Cycle - Set pi at interface 1 port 7 to OFF
+2021-05-15 21:08:21,549 - WARNING - Power_Cycle - Setting pi at port 7 to ON
+2021-05-15 21:08:21,725 - WARNING - Power_Cycle - Set pi at interface 1 port 7 to ON
+2021-05-15 21:08:31,245 - INFO - known ip: 172.16.1.8
+2021-05-15 21:08:31,249 - INFO - got [b'bootcode.bin', b'octet'] from ('172.16.1.8', 49153)
+2021-05-15 21:08:31,304 - WARNING - download complete, closing socket
+2021-05-15 21:08:31,305 - INFO - got [b'bootsig.bin', b'octet'] from ('172.16.1.8', 49154)
+2021-05-15 21:08:31,317 - ERROR - bootsig.bin: key error - looking in filesystem next
+2021-05-15 21:08:31,317 - ERROR - No such file within the directory
+2021-05-15 21:08:32,410 - INFO - known ip: 172.16.1.8
+2021-05-15 21:08:32,413 - INFO - got [b'a6ea25c5/start.elf', b'octet', b'tsize', b'0'] from ('172.16.1.8', 49153)
+2021-05-15 21:08:32,424 - ERROR - a6ea25c5/start.elf: key error - looking in filesystem next
+2021-05-15 21:08:32,425 - ERROR - No such file within the directory
+2021-05-15 21:08:32,432 - INFO - got [b'autoboot.txt', b'octet', b'tsize', b'0'] from ('172.16.1.8', 49154)
+2021-05-15 21:08:32,444 - ERROR - autoboot.txt: key error - looking in filesystem next
+2021-05-15 21:08:32,444 - ERROR - No such file within the directory
+2021-05-15 21:08:32,445 - INFO - got [b'config.txt', b'octet', b'tsize', b'0'] from ('172.16.1.8', 49155)
+2021-05-15 21:08:32,457 - WARNING - download complete, closing socket
+2021-05-15 21:08:33,458 - INFO - got [b'recovery.elf', b'octet', b'tsize', b'0'] from ('172.16.1.8', 49156)
+2021-05-15 21:08:33,471 - ERROR - recovery.elf: key error - looking in filesystem next
+2021-05-15 21:08:33,472 - ERROR - No such file within the directory
+2021-05-15 21:08:33,473 - INFO - got [b'start.elf', b'octet', b'tsize', b'0'] from ('172.16.1.8', 49157)
+2021-05-15 21:08:35,559 - WARNING - download complete, closing socket
+2021-05-15 21:08:35,561 - INFO - got [b'fixup.dat', b'octet', b'tsize', b'0'] from ('172.16.1.8', 49158)
+2021-05-15 21:08:35,582 - WARNING - download complete, closing socket
+2021-05-15 21:08:35,727 - INFO - got [b'recovery.elf', b'octet', b'tsize', b'0'] from ('172.16.1.8', 49153)
+2021-05-15 21:08:35,739 - ERROR - recovery.elf: key error - looking in filesystem next
+2021-05-15 21:08:35,739 - ERROR - No such file within the directory
+2021-05-15 21:08:35,740 - INFO - got [b'config.txt', b'octet', b'tsize', b'0'] from ('172.16.1.8', 49154)
+2021-05-15 21:08:35,752 - WARNING - download complete, closing socket
+2021-05-15 21:08:35,753 - INFO - got [b'dt-blob.bin', b'octet', b'tsize', b'0'] from ('172.16.1.8', 49155)
+2021-05-15 21:08:35,765 - ERROR - dt-blob.bin: key error - looking in filesystem next
+2021-05-15 21:08:35,765 - ERROR - No such file within the directory
+2021-05-15 21:08:35,815 - INFO - got [b'recovery.elf', b'octet', b'tsize', b'0'] from ('172.16.1.8', 49156)
+2021-05-15 21:08:35,826 - ERROR - recovery.elf: key error - looking in filesystem next
+2021-05-15 21:08:35,826 - ERROR - No such file within the directory
+2021-05-15 21:08:35,827 - INFO - got [b'config.txt', b'octet', b'tsize', b'0'] from ('172.16.1.8', 49157)
+2021-05-15 21:08:35,839 - WARNING - download complete, closing socket
+2021-05-15 21:08:39,062 - INFO - got [b'bootcfg.txt', b'octet', b'tsize', b'0'] from ('172.16.1.8', 49158)
+2021-05-15 21:08:39,075 - ERROR - bootcfg.txt: key error - looking in filesystem next
+2021-05-15 21:08:39,075 - ERROR - No such file within the directory
+2021-05-15 21:08:39,104 - INFO - got [b'initramfs.gz', b'octet', b'tsize', b'0'] from ('172.16.1.8', 49159)
+2021-05-15 21:08:40,340 - WARNING - download complete, closing socket
+2021-05-15 21:08:40,578 - INFO - got [b'bcm2710-rpi-3-b-plus.dtb', b'octet', b'tsize', b'0'] from ('172.16.1.8', 49160)
+2021-05-15 21:08:40,616 - WARNING - download complete, closing socket
+2021-05-15 21:08:40,831 - INFO - got [b'overlays/rpi-poe.dtbo', b'octet', b'tsize', b'0'] from ('172.16.1.8', 49161)
+2021-05-15 21:08:40,853 - ERROR - illegal operation specified
+2021-05-15 21:08:40,854 - INFO - got [b'config.txt', b'octet', b'tsize', b'0'] from ('172.16.1.8', 49162)
+2021-05-15 21:08:40,869 - WARNING - download complete, closing socket
+2021-05-15 21:08:40,871 - INFO - got [b'cmdline.txt', b'octet', b'tsize', b'0'] from ('172.16.1.8', 49163)
+2021-05-15 21:08:40,916 - WARNING - download complete, closing socket
+2021-05-15 21:08:43,228 - INFO - got [b'recovery8.img', b'octet', b'tsize', b'0'] from ('172.16.1.8', 49164)
+2021-05-15 21:08:43,240 - ERROR - recovery8.img: key error - looking in filesystem next
+2021-05-15 21:08:43,240 - ERROR - No such file within the directory
+2021-05-15 21:08:43,241 - INFO - got [b'recovery8-32.img', b'octet', b'tsize', b'0'] from ('172.16.1.8', 49165)
+2021-05-15 21:08:43,252 - ERROR - recovery8-32.img: key error - looking in filesystem next
+2021-05-15 21:08:43,252 - ERROR - No such file within the directory
+2021-05-15 21:08:43,253 - INFO - got [b'recovery7.img', b'octet', b'tsize', b'0'] from ('172.16.1.8', 49166)
+2021-05-15 21:08:43,265 - ERROR - recovery7.img: key error - looking in filesystem next
+2021-05-15 21:08:43,265 - ERROR - No such file within the directory
+2021-05-15 21:08:43,265 - INFO - got [b'recovery.img', b'octet', b'tsize', b'0'] from ('172.16.1.8', 49167)
+2021-05-15 21:08:43,277 - ERROR - recovery.img: key error - looking in filesystem next
+2021-05-15 21:08:43,277 - ERROR - No such file within the directory
+2021-05-15 21:08:43,278 - INFO - got [b'kernel8.img', b'octet', b'tsize', b'0'] from ('172.16.1.8', 49168)
+2021-05-15 21:08:43,290 - ERROR - illegal operation specified
+2021-05-15 21:08:43,290 - INFO - got [b'kernel8-32.img', b'octet', b'tsize', b'0'] from ('172.16.1.8', 49169)
+2021-05-15 21:08:43,304 - ERROR - kernel8-32.img: key error - looking in filesystem next
+2021-05-15 21:08:43,304 - ERROR - No such file within the directory
+2021-05-15 21:08:43,305 - INFO - got [b'kernel7.img', b'octet', b'tsize', b'0'] from ('172.16.1.8', 49170)
+2021-05-15 21:08:43,317 - ERROR - illegal operation specified
+2021-05-15 21:08:43,318 - INFO - got [b'armstub8-32.bin', b'octet', b'tsize', b'0'] from ('172.16.1.8', 49171)
+2021-05-15 21:08:43,332 - ERROR - armstub8-32.bin: key error - looking in filesystem next
+2021-05-15 21:08:43,332 - ERROR - No such file within the directory
+2021-05-15 21:08:43,333 - INFO - got [b'kernel7.img', b'octet', b'tsize', b'0'] from ('172.16.1.8', 49172)
+2021-05-15 21:08:47,260 - WARNING - download complete, closing socket
+2021-05-15 21:08:50,864 - ERROR - Socket Timed Out
+2021-05-15 21:08:50,865 - ERROR - closed socket
+2021-05-15 21:08:53,301 - ERROR - Socket Timed Out
+2021-05-15 21:08:53,301 - ERROR - closed socket
+2021-05-15 21:08:53,326 - ERROR - Socket Timed Out
+2021-05-15 21:08:53,326 - ERROR - closed socket
+2021-05-15 21:08:55,196 - INFO - known ip: 172.16.1.8
+2021-05-15 21:09:05,222 - INFO - known ip: 172.16.1.8
+2021-05-15 21:09:05,318 - INFO - serving client from: ('172.16.1.8', 49210)
+2021-05-15 21:09:05,322 - INFO - TCP - unsupported request: + set -x
+2021-05-15 21:09:05,323 - INFO - TCP - unsupported request: + send Hello World
+2021-05-15 21:09:05,323 - INFO - TCP - unsupported request: + echo Hello World
+2021-05-15 21:09:05,323 - INFO - TCP - unsupported request: Hello World
+2021-05-15 21:09:05,324 - INFO - TCP - unsupported request: + makenode
+2021-05-15 21:09:05,324 - INFO - TCP - unsupported request: + send MAKING NODES
+2021-05-15 21:09:05,324 - INFO - TCP - unsupported request: + echo MAKING NODES
+2021-05-15 21:09:05,325 - INFO - TCP - unsupported request: MAKING NODES
+2021-05-15 21:09:05,325 - INFO - TCP - unsupported request: + mkdir /m
+2021-05-15 21:09:05,328 - INFO - TCP - unsupported request: + mknod /dev/mmcblk0 b 179 0
+2021-05-15 21:09:05,333 - INFO - TCP - unsupported request: + mknod /dev/mmcblk0p1 b 179 1
+2021-05-15 21:09:05,339 - INFO - TCP - unsupported request: + mknod /dev/mmcblk0p2 b 179 2
+2021-05-15 21:09:05,345 - INFO - TCP - unsupported request: + send MADE NODES
+2021-05-15 21:09:05,345 - INFO - TCP - unsupported request: + echo MADE NODES
+2021-05-15 21:09:05,345 - INFO - TCP - unsupported request: MADE NODES
+2021-05-15 21:09:05,346 - INFO - TCP - unsupported request: + checkinstalled
+2021-05-15 21:09:05,346 - INFO - TCP - unsupported request: + send CHECKING IF INSTALLED
+2021-05-15 21:09:05,347 - INFO - TCP - unsupported request: + echo CHECKING IF INSTALLED
+2021-05-15 21:09:05,347 - INFO - TCP - unsupported request: CHECKING IF INSTALLED
+2021-05-15 21:09:05,347 - INFO - TCP - unsupported request: + mount -t ext4 /dev/mmcblk0p2 /m
+2021-05-15 21:09:07,411 - INFO - TCP - unsupported request: + stat /m/bin
+2021-05-15 21:09:07,425 - INFO - TCP - unsupported request: File: /m/bin
+2021-05-15 21:09:07,425 - INFO - TCP - unsupported request: Size: 4096      	Blocks: 8          IO Block: 4096   directory
+2021-05-15 21:09:07,425 - INFO - TCP - unsupported request: Device: b302h/45826d	Inode: 654081      Links: 2
+2021-05-15 21:09:07,426 - INFO - TCP - unsupported request: Access: (0755/drwxr-xr-x)  Uid: (    0/ UNKNOWN)   Gid: (    0/ UNKNOWN)
+2021-05-15 21:09:07,427 - INFO - TCP - unsupported request: Access: 2018-06-27 00:21:56.000000000
+2021-05-15 21:09:07,427 - INFO - TCP - unsupported request: Modify: 1970-01-01 00:01:24.000000000
+2021-05-15 21:09:07,427 - INFO - TCP - unsupported request: Change: 1970-01-01 00:01:24.000000000
+2021-05-15 21:09:07,428 - INFO - TCP - unsupported request: 
+2021-05-15 21:09:07,428 - INFO - TCP - unsupported request: + send IS_INSTALLED
+2021-05-15 21:09:07,429 - INFO - TCP - unsupported request: + echo IS_INSTALLED
+2021-05-15 21:09:07,429 - INFO - TCP - installed, sending boot
+2021-05-15 21:09:07,429 - INFO - TCP - unsupported request: + umount /m
+2021-05-15 21:09:07,502 - INFO - TCP - unsupported request: + mounting
+2021-05-15 21:09:07,502 - INFO - TCP - unsupported request: + send MOUNTING
+2021-05-15 21:09:07,502 - INFO - TCP - unsupported request: + echo MOUNTING
+2021-05-15 21:09:07,503 - INFO - TCP - pi mounting has started
+2021-05-15 21:09:07,503 - INFO - TCP - unsupported request: + mkdir -p /new_root
+2021-05-15 21:09:07,507 - INFO - TCP - unsupported request: + mount -t ext4 /dev/mmcblk0p2 /new_root
+2021-05-15 21:09:07,542 - INFO - TCP - unsupported request: + send FINISHED_MOUNTING
+2021-05-15 21:09:07,543 - INFO - TCP - unsupported request: + echo FINISHED_MOUNTING
+2021-05-15 21:09:07,543 - INFO - TCP - pi successfully mounted filesystem
+2021-05-15 21:09:07,544 - INFO - TCP - unsupported request: + true
+2021-05-15 21:09:07,545 - INFO - TCP - unsupported request: + recv
+2021-05-15 21:09:07,545 - INFO - TCP - unsupported request: + msg=
+2021-05-15 21:09:07,545 - INFO - TCP - unsupported request: + read line
+2021-05-15 21:09:07,546 - INFO - TCP - unsupported request: + [ xbusybox date -s 202105152109.05 == xEOM ]
+2021-05-15 21:09:07,546 - INFO - TCP - unsupported request: + msg=busybox date -s 202105152109.05
+2021-05-15 21:09:07,546 - INFO - TCP - unsupported request: + read line
+2021-05-15 21:09:07,546 - INFO - TCP - unsupported request: + [ xEOM == xEOM ]
+2021-05-15 21:09:07,546 - INFO - TCP - unsupported request: + echo -n busybox date -s 202105152109.05
+2021-05-15 21:09:07,546 - INFO - TCP - unsupported request: + return
+2021-05-15 21:09:07,547 - INFO - TCP - unsupported request: + req=busybox date -s 202105152109.05
+2021-05-15 21:09:07,547 - INFO - TCP - unsupported request: + send busybox date -s 202105152109.05
+2021-05-15 21:09:07,547 - INFO - TCP - unsupported request: + echo busybox date -s 202105152109.05
+2021-05-15 21:09:07,547 - INFO - TCP - unsupported request: busybox date -s 202105152109.05
+2021-05-15 21:09:07,548 - INFO - TCP - unsupported request: + send RECEIVED_DATE
+2021-05-15 21:09:07,548 - INFO - TCP - unsupported request: + echo RECEIVED_DATE
+2021-05-15 21:09:07,548 - INFO - TCP - pi successfully received date string
+2021-05-15 21:09:07,548 - INFO - TCP - unsupported request: + busybox date -s 202105152109.05
+2021-05-15 21:09:07,552 - INFO - TCP - unsupported request: Sat May 15 21:09:05 UTC 2021
+2021-05-15 21:09:07,553 - INFO - TCP - unsupported request: + send SET_DATE
+2021-05-15 21:09:07,554 - INFO - TCP - unsupported request: + echo SET_DATE
+2021-05-15 21:09:07,554 - INFO - TCP - pi successfully set local datetime
+2021-05-15 21:09:07,554 - INFO - TCP - unsupported request: + true
+2021-05-15 21:09:07,555 - INFO - TCP - unsupported request: + recv
+2021-05-15 21:09:07,555 - INFO - TCP - unsupported request: + msg=
+2021-05-15 21:09:07,555 - INFO - TCP - unsupported request: + read line
+2021-05-15 21:09:07,555 - INFO - TCP - unsupported request: + [ xboot == xEOM ]
+2021-05-15 21:09:07,555 - INFO - TCP - unsupported request: + msg=boot
+2021-05-15 21:09:07,556 - INFO - TCP - unsupported request: + read line
+2021-05-15 21:09:07,556 - INFO - TCP - unsupported request: + [ xEOM == xEOM ]
+2021-05-15 21:09:07,556 - INFO - TCP - unsupported request: + echo -n boot
+2021-05-15 21:09:07,556 - INFO - TCP - unsupported request: + return
+2021-05-15 21:09:07,556 - INFO - TCP - unsupported request: + req=boot
+2021-05-15 21:09:07,556 - INFO - TCP - unsupported request: + send boot
+2021-05-15 21:09:07,556 - INFO - TCP - unsupported request: + echo boot
+2021-05-15 21:09:07,557 - INFO - TCP - unsupported request: boot
+2021-05-15 21:09:07,557 - INFO - TCP - unsupported request: + send RECEIVED_BOOT
+2021-05-15 21:09:07,557 - INFO - TCP - unsupported request: + echo RECEIVED_BOOT
+2021-05-15 21:09:07,557 - INFO - TCP - pi successfully received boot command
+2021-05-15 21:09:07,557 - INFO - TCP - unsupported request: + mounting
+2021-05-15 21:09:07,557 - INFO - TCP - unsupported request: + send MOUNTING
+2021-05-15 21:09:07,558 - INFO - TCP - unsupported request: + echo MOUNTING
+2021-05-15 21:09:07,558 - INFO - TCP - pi mounting has started
+2021-05-15 21:09:07,560 - INFO - TCP - unsupported request: + mkdir -p /new_root
+2021-05-15 21:09:07,562 - INFO - TCP - unsupported request: + mount -t ext4 /dev/mmcblk0p2 /new_root
+2021-05-15 21:09:07,567 - INFO - TCP - unsupported request: mount: mounting /dev/mmcblk0p2 on /new_root failed: Device or resource busy
+2021-05-15 21:09:07,568 - INFO - TCP - unsupported request: + send FINISHED_MOUNTING
+2021-05-15 21:09:07,569 - INFO - TCP - unsupported request: + echo FINISHED_MOUNTING
+2021-05-15 21:09:07,569 - INFO - TCP - pi successfully mounted filesystem
+2021-05-15 21:09:07,569 - INFO - TCP - unsupported request: + exit 0
+2021-05-15 21:09:07,569 - INFO - tcpdump
+2021-05-15 21:09:22,032 - INFO - known ip: 172.16.1.8
+2021-05-15 21:09:25,838 - INFO - known ip: 172.16.1.8
+2021-05-15 21:09:32,045 - INFO - known ip: 172.16.1.8
+2021-05-15 21:10:27,787 - INFO - known ip: 172.16.1.7
+2021-05-15 21:12:12,693 - INFO - known ip: 172.16.1.2
+2021-05-15 21:12:32,452 - WARNING - Power_Cycle - Setting pi at port 1 to OFF
+2021-05-15 21:12:32,664 - WARNING - Power_Cycle - Set pi at interface 1 port 1 to OFF
+2021-05-15 21:12:33,672 - WARNING - Power_Cycle - Setting pi at port 1 to ON
+2021-05-15 21:12:33,855 - WARNING - Power_Cycle - Set pi at interface 1 port 1 to ON
+2021-05-15 21:12:43,038 - INFO - known ip: 172.16.1.1
+2021-05-15 21:12:43,043 - INFO - got [b'bootcode.bin', b'octet'] from ('172.16.1.1', 49153)
+2021-05-15 21:12:43,114 - INFO - got [b'bootsig.bin', b'octet'] from ('172.16.1.1', 49154)
+2021-05-15 21:12:43,114 - WARNING - download complete, closing socket
+2021-05-15 21:12:43,127 - ERROR - bootsig.bin: key error - looking in filesystem next
+2021-05-15 21:12:43,128 - ERROR - No such file within the directory
+2021-05-15 21:12:44,227 - INFO - known ip: 172.16.1.1
+2021-05-15 21:12:44,230 - INFO - got [b'c3c1ff80/start.elf', b'octet', b'tsize', b'0'] from ('172.16.1.1', 49153)
+2021-05-15 21:12:44,242 - ERROR - c3c1ff80/start.elf: key error - looking in filesystem next
+2021-05-15 21:12:44,242 - ERROR - No such file within the directory
+2021-05-15 21:12:44,249 - INFO - got [b'autoboot.txt', b'octet', b'tsize', b'0'] from ('172.16.1.1', 49154)
+2021-05-15 21:12:44,260 - ERROR - autoboot.txt: key error - looking in filesystem next
+2021-05-15 21:12:44,261 - ERROR - No such file within the directory
+2021-05-15 21:12:44,261 - INFO - got [b'config.txt', b'octet', b'tsize', b'0'] from ('172.16.1.1', 49155)
+2021-05-15 21:12:44,273 - WARNING - download complete, closing socket
+2021-05-15 21:12:44,877 - INFO - known ip: 172.16.1.9
+2021-05-15 21:12:45,274 - INFO - got [b'recovery.elf', b'octet', b'tsize', b'0'] from ('172.16.1.1', 49156)
+2021-05-15 21:12:45,287 - ERROR - recovery.elf: key error - looking in filesystem next
+2021-05-15 21:12:45,287 - ERROR - No such file within the directory
+2021-05-15 21:12:45,288 - INFO - got [b'start.elf', b'octet', b'tsize', b'0'] from ('172.16.1.1', 49157)
+2021-05-15 21:12:46,959 - WARNING - download complete, closing socket
+2021-05-15 21:12:46,959 - INFO - got [b'fixup.dat', b'octet', b'tsize', b'0'] from ('172.16.1.1', 49158)
+2021-05-15 21:12:46,983 - WARNING - download complete, closing socket
+2021-05-15 21:12:47,128 - INFO - got [b'recovery.elf', b'octet', b'tsize', b'0'] from ('172.16.1.1', 49153)
+2021-05-15 21:12:47,141 - ERROR - recovery.elf: key error - looking in filesystem next
+2021-05-15 21:12:47,141 - ERROR - No such file within the directory
+2021-05-15 21:12:47,142 - INFO - got [b'config.txt', b'octet', b'tsize', b'0'] from ('172.16.1.1', 49154)
+2021-05-15 21:12:47,155 - WARNING - download complete, closing socket
+2021-05-15 21:12:47,156 - INFO - got [b'dt-blob.bin', b'octet', b'tsize', b'0'] from ('172.16.1.1', 49155)
+2021-05-15 21:12:47,168 - ERROR - dt-blob.bin: key error - looking in filesystem next
+2021-05-15 21:12:47,169 - ERROR - No such file within the directory
+2021-05-15 21:12:47,219 - INFO - got [b'recovery.elf', b'octet', b'tsize', b'0'] from ('172.16.1.1', 49156)
+2021-05-15 21:12:47,230 - ERROR - recovery.elf: key error - looking in filesystem next
+2021-05-15 21:12:47,231 - ERROR - No such file within the directory
+2021-05-15 21:12:47,231 - INFO - got [b'config.txt', b'octet', b'tsize', b'0'] from ('172.16.1.1', 49157)
+2021-05-15 21:12:47,243 - WARNING - download complete, closing socket
+2021-05-15 21:12:50,466 - INFO - got [b'bootcfg.txt', b'octet', b'tsize', b'0'] from ('172.16.1.1', 49158)
+2021-05-15 21:12:50,484 - ERROR - bootcfg.txt: key error - looking in filesystem next
+2021-05-15 21:12:50,484 - ERROR - No such file within the directory
+2021-05-15 21:12:50,514 - INFO - got [b'initramfs.gz', b'octet', b'tsize', b'0'] from ('172.16.1.1', 49159)
+2021-05-15 21:12:51,828 - WARNING - download complete, closing socket
+2021-05-15 21:12:52,065 - INFO - got [b'bcm2710-rpi-3-b-plus.dtb', b'octet', b'tsize', b'0'] from ('172.16.1.1', 49160)
+2021-05-15 21:12:52,102 - WARNING - download complete, closing socket
+2021-05-15 21:12:52,317 - INFO - got [b'overlays/rpi-poe.dtbo', b'octet', b'tsize', b'0'] from ('172.16.1.1', 49161)
+2021-05-15 21:12:52,339 - ERROR - illegal operation specified
+2021-05-15 21:12:52,339 - INFO - got [b'config.txt', b'octet', b'tsize', b'0'] from ('172.16.1.1', 49162)
+2021-05-15 21:12:52,354 - WARNING - download complete, closing socket
+2021-05-15 21:12:52,355 - INFO - got [b'cmdline.txt', b'octet', b'tsize', b'0'] from ('172.16.1.1', 49163)
+2021-05-15 21:12:52,372 - WARNING - download complete, closing socket
+2021-05-15 21:12:54,519 - INFO - got [b'recovery8.img', b'octet', b'tsize', b'0'] from ('172.16.1.1', 49164)
+2021-05-15 21:12:54,532 - ERROR - recovery8.img: key error - looking in filesystem next
+2021-05-15 21:12:54,532 - ERROR - No such file within the directory
+2021-05-15 21:12:54,533 - INFO - got [b'recovery8-32.img', b'octet', b'tsize', b'0'] from ('172.16.1.1', 49165)
+2021-05-15 21:12:54,545 - ERROR - recovery8-32.img: key error - looking in filesystem next
+2021-05-15 21:12:54,545 - ERROR - No such file within the directory
+2021-05-15 21:12:54,546 - INFO - got [b'recovery7.img', b'octet', b'tsize', b'0'] from ('172.16.1.1', 49166)
+2021-05-15 21:12:54,557 - ERROR - recovery7.img: key error - looking in filesystem next
+2021-05-15 21:12:54,558 - ERROR - No such file within the directory
+2021-05-15 21:12:54,558 - INFO - got [b'recovery.img', b'octet', b'tsize', b'0'] from ('172.16.1.1', 49167)
+2021-05-15 21:12:54,570 - ERROR - recovery.img: key error - looking in filesystem next
+2021-05-15 21:12:54,570 - ERROR - No such file within the directory
+2021-05-15 21:12:54,571 - INFO - got [b'kernel8.img', b'octet', b'tsize', b'0'] from ('172.16.1.1', 49168)
+2021-05-15 21:12:54,586 - ERROR - illegal operation specified
+2021-05-15 21:12:54,587 - INFO - got [b'kernel8-32.img', b'octet', b'tsize', b'0'] from ('172.16.1.1', 49169)
+2021-05-15 21:12:54,600 - ERROR - kernel8-32.img: key error - looking in filesystem next
+2021-05-15 21:12:54,600 - ERROR - No such file within the directory
+2021-05-15 21:12:54,601 - INFO - got [b'kernel7.img', b'octet', b'tsize', b'0'] from ('172.16.1.1', 49170)
+2021-05-15 21:12:54,614 - ERROR - illegal operation specified
+2021-05-15 21:12:54,614 - INFO - got [b'armstub8-32.bin', b'octet', b'tsize', b'0'] from ('172.16.1.1', 49171)
+2021-05-15 21:12:54,627 - ERROR - armstub8-32.bin: key error - looking in filesystem next
+2021-05-15 21:12:54,628 - ERROR - No such file within the directory
+2021-05-15 21:12:54,628 - INFO - got [b'kernel7.img', b'octet', b'tsize', b'0'] from ('172.16.1.1', 49172)
+2021-05-15 21:12:58,847 - INFO - known ip: 172.16.1.3
+2021-05-15 21:12:59,076 - WARNING - download complete, closing socket
+2021-05-15 21:13:02,343 - ERROR - Socket Timed Out
+2021-05-15 21:13:02,343 - ERROR - closed socket
+2021-05-15 21:13:04,594 - ERROR - Socket Timed Out
+2021-05-15 21:13:04,594 - ERROR - closed socket
+2021-05-15 21:13:04,616 - ERROR - Socket Timed Out
+2021-05-15 21:13:04,617 - ERROR - closed socket
+2021-05-15 21:13:06,522 - INFO - known ip: 172.16.1.10
+2021-05-15 21:13:07,014 - INFO - known ip: 172.16.1.1
+2021-05-15 21:13:10,857 - INFO - known ip: 172.16.1.6
+2021-05-15 21:13:17,041 - INFO - known ip: 172.16.1.1
+2021-05-15 21:13:17,164 - INFO - serving client from: ('172.16.1.1', 38518)
+2021-05-15 21:13:17,168 - INFO - TCP - unsupported request: + set -x
+2021-05-15 21:13:17,168 - INFO - TCP - unsupported request: + send Hello World
+2021-05-15 21:13:17,168 - INFO - TCP - unsupported request: + echo Hello World
+2021-05-15 21:13:17,169 - INFO - TCP - unsupported request: Hello World
+2021-05-15 21:13:17,169 - INFO - TCP - unsupported request: + makenode
+2021-05-15 21:13:17,169 - INFO - TCP - unsupported request: + send MAKING NODES
+2021-05-15 21:13:17,169 - INFO - TCP - unsupported request: + echo MAKING NODES
+2021-05-15 21:13:17,169 - INFO - TCP - unsupported request: MAKING NODES
+2021-05-15 21:13:17,169 - INFO - TCP - unsupported request: + mkdir /m
+2021-05-15 21:13:17,174 - INFO - TCP - unsupported request: + mknod /dev/mmcblk0 b 179 0
+2021-05-15 21:13:17,180 - INFO - TCP - unsupported request: + mknod /dev/mmcblk0p1 b 179 1
+2021-05-15 21:13:17,185 - INFO - TCP - unsupported request: + mknod /dev/mmcblk0p2 b 179 2
+2021-05-15 21:13:17,190 - INFO - TCP - unsupported request: + send MADE NODES
+2021-05-15 21:13:17,191 - INFO - TCP - unsupported request: + echo MADE NODES
+2021-05-15 21:13:17,191 - INFO - TCP - unsupported request: MADE NODES
+2021-05-15 21:13:17,191 - INFO - TCP - unsupported request: + checkinstalled
+2021-05-15 21:13:17,191 - INFO - TCP - unsupported request: + send CHECKING IF INSTALLED
+2021-05-15 21:13:17,191 - INFO - TCP - unsupported request: + echo CHECKING IF INSTALLED
+2021-05-15 21:13:17,191 - INFO - TCP - unsupported request: CHECKING IF INSTALLED
+2021-05-15 21:13:17,192 - INFO - TCP - unsupported request: + mount -t ext4 /dev/mmcblk0p2 /m
+2021-05-15 21:13:17,235 - INFO - TCP - unsupported request: + stat /m/bin
+2021-05-15 21:13:17,241 - INFO - TCP - unsupported request: stat: can't stat '/m/bin': No such file or directory
+2021-05-15 21:13:17,244 - INFO - TCP - unsupported request: + send IS_UNINSTALLED
+2021-05-15 21:13:17,244 - INFO - TCP - unsupported request: + echo IS_UNINSTALLED
+2021-05-15 21:13:17,245 - INFO - TCT - uninstalled, sending format
+2021-05-15 21:13:17,246 - INFO - TCP - unsupported request: + true
+2021-05-15 21:13:17,247 - INFO - TCP - unsupported request: + recv
+2021-05-15 21:13:17,247 - INFO - TCP - unsupported request: + msg=
+2021-05-15 21:13:17,247 - INFO - TCP - unsupported request: + read line
+2021-05-15 21:13:17,248 - INFO - TCP - unsupported request: + [ xbusybox date -s 202105152113.17 == xEOM ]
+2021-05-15 21:13:17,248 - INFO - TCP - unsupported request: + msg=busybox date -s 202105152113.17
+2021-05-15 21:13:17,248 - INFO - TCP - unsupported request: + read line
+2021-05-15 21:13:17,248 - INFO - TCP - unsupported request: + [ xEOM == xEOM ]
+2021-05-15 21:13:17,248 - INFO - TCP - unsupported request: + echo -n busybox date -s 202105152113.17
+2021-05-15 21:13:17,249 - INFO - TCP - unsupported request: + return
+2021-05-15 21:13:17,249 - INFO - TCP - unsupported request: + req=busybox date -s 202105152113.17
+2021-05-15 21:13:17,250 - INFO - TCP - unsupported request: + send busybox date -s 202105152113.17
+2021-05-15 21:13:17,250 - INFO - TCP - unsupported request: + echo busybox date -s 202105152113.17
+2021-05-15 21:13:17,250 - INFO - TCP - unsupported request: busybox date -s 202105152113.17
+2021-05-15 21:13:17,250 - INFO - TCP - unsupported request: + send RECEIVED_DATE
+2021-05-15 21:13:17,250 - INFO - TCP - unsupported request: + echo RECEIVED_DATE
+2021-05-15 21:13:17,250 - INFO - TCP - pi successfully received date string
+2021-05-15 21:13:17,250 - INFO - TCP - unsupported request: + busybox date -s 202105152113.17
+2021-05-15 21:13:17,255 - INFO - TCP - unsupported request: Sat May 15 21:13:17 UTC 2021
+2021-05-15 21:13:17,256 - INFO - TCP - unsupported request: + send SET_DATE
+2021-05-15 21:13:17,256 - INFO - TCP - unsupported request: + echo SET_DATE
+2021-05-15 21:13:17,257 - INFO - TCP - pi successfully set local datetime
+2021-05-15 21:13:17,257 - INFO - TCP - unsupported request: + true
+2021-05-15 21:13:17,258 - INFO - TCP - unsupported request: + recv
+2021-05-15 21:13:17,258 - INFO - TCP - unsupported request: + msg=
+2021-05-15 21:13:17,258 - INFO - TCP - unsupported request: + read line
+2021-05-15 21:13:17,258 - INFO - TCP - unsupported request: + [ xformat == xEOM ]
+2021-05-15 21:13:17,258 - INFO - TCP - unsupported request: + msg=format
+2021-05-15 21:13:17,258 - INFO - TCP - unsupported request: + read line
+2021-05-15 21:13:17,258 - INFO - TCP - unsupported request: + [ xEOM == xEOM ]
+2021-05-15 21:13:17,259 - INFO - TCP - unsupported request: + echo -n format
+2021-05-15 21:13:17,259 - INFO - TCP - unsupported request: + return
+2021-05-15 21:13:17,259 - INFO - TCP - unsupported request: + req=format
+2021-05-15 21:13:17,259 - INFO - TCP - unsupported request: + send format
+2021-05-15 21:13:17,259 - INFO - TCP - unsupported request: + echo format
+2021-05-15 21:13:17,259 - INFO - TCP - unsupported request: format
+2021-05-15 21:13:17,260 - INFO - TCP - unsupported request: + send RECEIVED_FORMAT
+2021-05-15 21:13:17,260 - INFO - TCP - unsupported request: + echo RECEIVED_FORMAT
+2021-05-15 21:13:17,260 - INFO - TCP - pi successfully received format command
+2021-05-15 21:13:17,260 - INFO - TCP - unsupported request: + format
+2021-05-15 21:13:17,260 - INFO - TCP - unsupported request: + send FORMATTING
+2021-05-15 21:13:17,260 - INFO - TCP - unsupported request: + echo FORMATTING
+2021-05-15 21:13:17,260 - INFO - TCP - unsupported request: FORMATTING
+2021-05-15 21:13:17,261 - INFO - TCP - unsupported request: + umount /m
+2021-05-15 21:13:17,324 - INFO - TCP - unsupported request: + umount /new_root
+2021-05-15 21:13:17,328 - INFO - TCP - unsupported request: umount: can't umount /new_root: No such file or directory
+2021-05-15 21:13:17,330 - INFO - TCP - unsupported request: + sfdisk /dev/mmcblk0
+2021-05-15 21:13:17,360 - INFO - TCP - unsupported request: Checking that no-one is using this disk right now ... OK
+2021-05-15 21:13:17,360 - INFO - TCP - unsupported request: 
+2021-05-15 21:13:17,360 - INFO - TCP - unsupported request: Disk /dev/mmcblk0: 29.2 GiB, 31312576512 bytes, 61157376 sectors
+2021-05-15 21:13:17,360 - INFO - TCP - unsupported request: Units: sectors of 1 * 512 = 512 bytes
+2021-05-15 21:13:17,360 - INFO - TCP - unsupported request: Sector size (logical/physical): 512 bytes / 512 bytes
+2021-05-15 21:13:17,361 - INFO - TCP - unsupported request: I/O size (minimum/optimal): 512 bytes / 512 bytes
+2021-05-15 21:13:17,361 - INFO - TCP - unsupported request: Disklabel type: dos
+2021-05-15 21:13:17,361 - INFO - TCP - unsupported request: Disk identifier: 0x5f5d7a31
+2021-05-15 21:13:17,361 - INFO - TCP - unsupported request: 
+2021-05-15 21:13:17,361 - INFO - TCP - unsupported request: Old situation:
+2021-05-15 21:13:17,361 - INFO - TCP - unsupported request: 
+2021-05-15 21:13:17,361 - INFO - TCP - unsupported request: Device         Boot Start      End  Sectors  Size Id Type
+2021-05-15 21:13:17,361 - INFO - TCP - unsupported request: /dev/mmcblk0p1       8192    96663    88472 43.2M  c W95 FAT32 (LBA)
+2021-05-15 21:13:17,362 - INFO - TCP - unsupported request: /dev/mmcblk0p2      98304 61157375 61059072 29.1G 83 Linux
+2021-05-15 21:13:17,362 - INFO - TCP - unsupported request: 
+2021-05-15 21:13:17,362 - INFO - TCP - unsupported request: >>> Script header accepted.
+2021-05-15 21:13:17,362 - INFO - TCP - unsupported request: >>> Script header accepted.
+2021-05-15 21:13:17,362 - INFO - TCP - unsupported request: >>> Script header accepted.
+2021-05-15 21:13:17,362 - INFO - TCP - unsupported request: >>> Script header accepted.
+2021-05-15 21:13:17,362 - INFO - TCP - unsupported request: >>> Created a new DOS disklabel with disk identifier 0x5f5d7a31.
+2021-05-15 21:13:17,362 - INFO - TCP - unsupported request: /dev/mmcblk0p1: Created a new partition 1 of type 'W95 FAT32 (LBA)' and of size 43.2 MiB.
+2021-05-15 21:13:17,403 - INFO - TCP - unsupported request: Partition #1 contains a vfat signature.
+2021-05-15 21:13:17,410 - INFO - TCP - unsupported request: /dev/mmcblk0p2: Created a new partition 2 of type 'Linux' and of size 29.1 GiB.
+2021-05-15 21:13:17,411 - INFO - TCP - unsupported request: Partition #2 contains a ext4 signature.
+2021-05-15 21:13:17,439 - INFO - TCP - unsupported request: /dev/mmcblk0p3: Done.
+2021-05-15 21:13:17,439 - INFO - TCP - unsupported request: 
+2021-05-15 21:13:17,439 - INFO - TCP - unsupported request: New situation:
+2021-05-15 21:13:17,439 - INFO - TCP - unsupported request: 
+2021-05-15 21:13:17,439 - INFO - TCP - unsupported request: Device         Boot Start      End  Sectors  Size Id Type
+2021-05-15 21:13:17,440 - INFO - TCP - unsupported request: /dev/mmcblk0p1       8192    96663    88472 43.2M  c W95 FAT32 (LBA)
+2021-05-15 21:13:17,440 - INFO - TCP - unsupported request: /dev/mmcblk0p2      98304 61157375 61059072 29.1G 83 Linux
+2021-05-15 21:13:17,440 - INFO - TCP - unsupported request: 
+2021-05-15 21:13:17,440 - INFO - TCP - unsupported request: The partition table has been altered.
+2021-05-15 21:13:17,440 - INFO - TCP - unsupported request: Calling ioctl() to re-read partition table.
+2021-05-15 21:13:17,440 - INFO - TCP - unsupported request: Syncing disks.
+2021-05-15 21:13:17,441 - INFO - TCP - unsupported request: + mkfs.ext4 /dev/mmcblk0p2 -L rootfs
+2021-05-15 21:13:17,449 - INFO - TCP - unsupported request: mke2fs 1.43.4 (31-Jan-2017)
+2021-05-15 21:13:17,453 - INFO - TCP - unsupported request: ext2fs_check_if_mount: Can't check if filesystem is mounted due to missing mtab file while determining whether /dev/mmcblk0p2 is mounted.
+2021-05-15 21:13:24,333 - INFO - TCP - unsupported request: Discarding device blocks:    4096/7632384 528384/76323841052672/76323842625536/76323843674112/76323844722688/76323846295552/7632384               done
+2021-05-15 21:13:24,334 - INFO - TCP - unsupported request: Creating filesystem with 7632384 4k blocks and 1908736 inodes
+2021-05-15 21:13:24,334 - INFO - TCP - unsupported request: Filesystem UUID: 62340ac2-b5c2-11eb-98d2-b827ebc1ff80
+2021-05-15 21:13:24,335 - INFO - TCP - unsupported request: Superblock backups stored on blocks:
+2021-05-15 21:13:24,335 - INFO - TCP - unsupported request: 32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208,
+2021-05-15 21:13:24,335 - INFO - TCP - unsupported request: 4096000
+2021-05-15 21:13:24,335 - INFO - TCP - unsupported request: 
+2021-05-15 21:13:24,338 - INFO - TCP - unsupported request: Allocating group tables:   0/233       done
+2021-05-15 21:13:24,339 - INFO - TCP - unsupported request: Writing inode tables:   0/233       done
+2021-05-15 21:13:24,895 - INFO - TCP - unsupported request: Creating journal (32768 blocks): done
+2021-05-15 21:13:40,078 - INFO - TCP - unsupported request: Writing superblocks and filesystem accounting information:   0/233  2/233  6/233  8/233 10/233 26/233       done
+2021-05-15 21:13:40,078 - INFO - TCP - unsupported request: 
+2021-05-15 21:13:40,080 - INFO - TCP - unsupported request: + sfdisk /dev/mmcblk0
+2021-05-15 21:13:40,105 - INFO - TCP - unsupported request: Checking that no-one is using this disk right now ... OK
+2021-05-15 21:13:40,105 - INFO - TCP - unsupported request: 
+2021-05-15 21:13:40,105 - INFO - TCP - unsupported request: Disk /dev/mmcblk0: 29.2 GiB, 31312576512 bytes, 61157376 sectors
+2021-05-15 21:13:40,105 - INFO - TCP - unsupported request: Units: sectors of 1 * 512 = 512 bytes
+2021-05-15 21:13:40,105 - INFO - TCP - unsupported request: Sector size (logical/physical): 512 bytes / 512 bytes
+2021-05-15 21:13:40,106 - INFO - TCP - unsupported request: I/O size (minimum/optimal): 512 bytes / 512 bytes
+2021-05-15 21:13:40,106 - INFO - TCP - unsupported request: Disklabel type: dos
+2021-05-15 21:13:40,106 - INFO - TCP - unsupported request: Disk identifier: 0x5f5d7a31
+2021-05-15 21:13:40,106 - INFO - TCP - unsupported request: 
+2021-05-15 21:13:40,106 - INFO - TCP - unsupported request: Old situation:
+2021-05-15 21:13:40,106 - INFO - TCP - unsupported request: 
+2021-05-15 21:13:40,106 - INFO - TCP - unsupported request: Device         Boot Start      End  Sectors  Size Id Type
+2021-05-15 21:13:40,107 - INFO - TCP - unsupported request: /dev/mmcblk0p1       8192    96663    88472 43.2M  c W95 FAT32 (LBA)
+2021-05-15 21:13:40,107 - INFO - TCP - unsupported request: /dev/mmcblk0p2      98304 61157375 61059072 29.1G 83 Linux
+2021-05-15 21:13:40,107 - INFO - TCP - unsupported request: 
+2021-05-15 21:13:40,107 - INFO - TCP - unsupported request: >>> Script header accepted.
+2021-05-15 21:13:40,107 - INFO - TCP - unsupported request: >>> Script header accepted.
+2021-05-15 21:13:40,107 - INFO - TCP - unsupported request: >>> Script header accepted.
+2021-05-15 21:13:40,107 - INFO - TCP - unsupported request: >>> Script header accepted.
+2021-05-15 21:13:40,107 - INFO - TCP - unsupported request: >>> Created a new DOS disklabel with disk identifier 0x5f5d7a31.
+2021-05-15 21:13:40,107 - INFO - TCP - unsupported request: /dev/mmcblk0p1: Created a new partition 1 of type 'W95 FAT32 (LBA)' and of size 43.2 MiB.
+2021-05-15 21:13:40,108 - INFO - TCP - unsupported request: Partition #1 contains a vfat signature.
+2021-05-15 21:13:40,141 - INFO - TCP - unsupported request: /dev/mmcblk0p2: Created a new partition 2 of type 'Linux' and of size 29.1 GiB.
+2021-05-15 21:13:40,142 - INFO - TCP - unsupported request: Partition #2 contains a ext4 signature.
+2021-05-15 21:13:40,151 - INFO - TCP - unsupported request: /dev/mmcblk0p3: Done.
+2021-05-15 21:13:40,151 - INFO - TCP - unsupported request: 
+2021-05-15 21:13:40,151 - INFO - TCP - unsupported request: New situation:
+2021-05-15 21:13:40,151 - INFO - TCP - unsupported request: 
+2021-05-15 21:13:40,151 - INFO - TCP - unsupported request: Device         Boot Start      End  Sectors  Size Id Type
+2021-05-15 21:13:40,152 - INFO - TCP - unsupported request: /dev/mmcblk0p1       8192    96663    88472 43.2M  c W95 FAT32 (LBA)
+2021-05-15 21:13:40,152 - INFO - TCP - unsupported request: /dev/mmcblk0p2      98304 61157375 61059072 29.1G 83 Linux
+2021-05-15 21:13:40,152 - INFO - TCP - unsupported request: 
+2021-05-15 21:13:40,152 - INFO - TCP - unsupported request: The partition table has been altered.
+2021-05-15 21:13:40,152 - INFO - TCP - unsupported request: Calling ioctl() to re-read partition table.
+2021-05-15 21:13:40,152 - INFO - TCP - unsupported request: Syncing disks.
+2021-05-15 21:13:40,152 - INFO - TCP - unsupported request: + sfdisk --dump /dev/mmcblk0
+2021-05-15 21:13:40,160 - INFO - TCP - unsupported request: label: dos
+2021-05-15 21:13:40,161 - INFO - TCP - unsupported request: label-id: 0x5f5d7a31
+2021-05-15 21:13:40,161 - INFO - TCP - unsupported request: device: /dev/mmcblk0
+2021-05-15 21:13:40,161 - INFO - TCP - unsupported request: unit: sectors
+2021-05-15 21:13:40,161 - INFO - TCP - unsupported request: 
+2021-05-15 21:13:40,161 - INFO - TCP - unsupported request: /dev/mmcblk0p1 : start=        8192, size=       88472, type=c
+2021-05-15 21:13:40,161 - INFO - TCP - unsupported request: /dev/mmcblk0p2 : start=       98304, size=    61059072, type=83
+2021-05-15 21:13:40,162 - INFO - TCP - unsupported request: + mkfs.ext4 /dev/mmcblk0p2 -L rootfs
+2021-05-15 21:13:40,170 - INFO - TCP - unsupported request: mke2fs 1.43.4 (31-Jan-2017)
+2021-05-15 21:13:40,174 - INFO - TCP - unsupported request: ext2fs_check_if_mount: Can't check if filesystem is mounted due to missing mtab file while determining whether /dev/mmcblk0p2 is mounted.
+2021-05-15 21:13:46,053 - INFO - TCP - unsupported request: Discarding device blocks:    4096/7632384 528384/76323841052672/76323842101248/76323843674112/76323845246976/76323846819840/7632384               done
+2021-05-15 21:13:46,054 - INFO - TCP - unsupported request: Creating filesystem with 7632384 4k blocks and 1908736 inodes
+2021-05-15 21:13:46,055 - INFO - TCP - unsupported request: Filesystem UUID: 6f26523a-b5c2-11eb-863c-b827ebc1ff80
+2021-05-15 21:13:46,055 - INFO - TCP - unsupported request: Superblock backups stored on blocks:
+2021-05-15 21:13:46,055 - INFO - TCP - unsupported request: 32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208,
+2021-05-15 21:13:46,055 - INFO - TCP - unsupported request: 4096000
+2021-05-15 21:13:46,055 - INFO - TCP - unsupported request: 
+2021-05-15 21:13:46,059 - INFO - TCP - unsupported request: Allocating group tables:   0/233       done
+2021-05-15 21:13:46,059 - INFO - TCP - unsupported request: Writing inode tables:   0/233       done
+2021-05-15 21:13:46,615 - INFO - TCP - unsupported request: Creating journal (32768 blocks): done
+2021-05-15 21:14:02,076 - INFO - TCP - unsupported request: Writing superblocks and filesystem accounting information:   0/233  4/233  6/233  8/233 10/233 26/233 28/233 50/233 82/233126/233       done
+2021-05-15 21:14:02,076 - INFO - TCP - unsupported request: 
+2021-05-15 21:14:02,078 - INFO - TCP - unsupported request: + mount -t ext4 /dev/mmcblk0p2 /m
+2021-05-15 21:14:02,108 - INFO - TCP - unsupported request: + send FINISHED FORMATTING
+2021-05-15 21:14:02,108 - INFO - TCP - unsupported request: + echo FINISHED FORMATTING
+2021-05-15 21:14:02,108 - INFO - TCP - unsupported request: FINISHED FORMATTING
+2021-05-15 21:14:02,108 - INFO - TCP - unsupported request: + cd /m
+2021-05-15 21:14:02,110 - INFO - TCP - unsupported request: + gunzip+ +
+2021-05-15 21:14:02,111 - INFO - TCP - unsupported request: tarnc -xf 172.16.1.128 -
+2021-05-15 21:14:02,111 - INFO - TCP - unsupported request: 4444
+2021-05-15 21:14:02,116 - INFO - TCP - started file_transferring
+2021-05-15 21:14:03,994 - DEBUG - TCP - read rootfs.tgz
+2021-05-15 21:14:03,994 - DEBUG - TCP - sending rootfs.tgz
+2021-05-15 21:14:46,776 - INFO - known ip: 172.16.1.8
+2021-05-15 21:15:37,837 - INFO - known ip: 172.16.1.7
+2021-05-15 21:17:09,670 - DEBUG - TCP - finished sending rootfs.tgz
+2021-05-15 21:17:09,671 - INFO - TCP - finished file_transferring
+2021-05-15 21:17:15,368 - INFO - TCP - unsupported request: + mounting
+2021-05-15 21:17:15,369 - INFO - TCP - unsupported request: + send MOUNTING
+2021-05-15 21:17:15,369 - INFO - TCP - unsupported request: + echo MOUNTING
+2021-05-15 21:17:15,369 - INFO - TCP - pi mounting has started
+2021-05-15 21:17:15,369 - INFO - TCP - unsupported request: + mkdir -p /new_root
+2021-05-15 21:17:15,373 - INFO - TCP - unsupported request: + mount -t ext4 /dev/mmcblk0p2 /new_root
+2021-05-15 21:17:15,378 - INFO - TCP - unsupported request: + send FINISHED_MOUNTING
+2021-05-15 21:17:15,379 - INFO - TCP - unsupported request: + echo FINISHED_MOUNTING
+2021-05-15 21:17:15,379 - INFO - TCP - pi successfully mounted filesystem
+2021-05-15 21:17:15,379 - INFO - TCP - unsupported request: + send IS_FORMATTED
+2021-05-15 21:17:15,379 - INFO - TCP - unsupported request: + echo IS_FORMATTED
+2021-05-15 21:17:15,379 - INFO - TCP - is formatted, sending file
+2021-05-15 21:17:15,379 - INFO - tcpdump
+2021-05-15 21:17:22,808 - INFO - known ip: 172.16.1.2
+2021-05-15 21:17:26,819 - INFO - known ip: 172.16.1.1
+2021-05-15 21:17:36,826 - INFO - known ip: 172.16.1.1
+2021-05-15 21:17:54,986 - INFO - known ip: 172.16.1.9
+2021-05-15 21:18:08,865 - INFO - known ip: 172.16.1.3
+2021-05-15 21:18:16,530 - INFO - known ip: 172.16.1.10
+2021-05-15 21:18:20,885 - INFO - known ip: 172.16.1.6
+2021-05-15 21:19:49,258 - WARNING - Power_Cycle - Setting pi at port 5 to OFF
+2021-05-15 21:19:49,477 - WARNING - Power_Cycle - Set pi at interface 1 port 5 to OFF
+2021-05-15 21:19:50,479 - WARNING - Power_Cycle - Setting pi at port 5 to ON
+2021-05-15 21:19:50,662 - WARNING - Power_Cycle - Set pi at interface 1 port 5 to ON
+2021-05-15 21:19:56,813 - INFO - known ip: 172.16.1.8
+2021-05-15 21:20:08,101 - ERROR - unknown mac_address DC:A6:32:CE:81:33. will not assign ip.
